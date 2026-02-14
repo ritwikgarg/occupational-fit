@@ -1,0 +1,8 @@
+{
+  "share_missing_soc_code_final": 0.049013747758517634,
+  "final_score_mean": 0.41236825909601554,
+  "final_score_std": 0.09700706085221868,
+  "improvement_auc": 0.705678329312622,
+  "improvement_decile_low": 0.83945,
+  "improvement_decile_high": 0.082569
+}

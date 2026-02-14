@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Job Match Metric Demo</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 0; background: #0b0d12; color: #e9eef7; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    .card { background: #121826; border: 1px solid #1f2a44; border-radius: 16px; padding: 16px; margin: 12px 0; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    label { font-size: 12px; color: #a9b6d3; display:block; margin-bottom: 6px; }
+    select, input, textarea { width: 100%; padding: 10px; border-radius: 12px; border: 1px solid #263659; background: #0f1420; color: #e9eef7; }
+    textarea { min-height: 110px; }
+    .pill { display:inline-block; padding: 4px 10px; border-radius: 999px; background:#1b2540; border:1px solid #2b3e6e; margin-right:8px; font-size: 12px; }
+    .big { font-size: 34px; font-weight: 700; }
+    .muted { color:#a9b6d3; }
+    table { width:100%; border-collapse: collapse; }
+    td, th { border-bottom: 1px solid #1f2a44; padding: 8px; font-size: 13px; vertical-align: top; }
+    th { text-align:left; color:#a9b6d3; font-weight:600; }
+    .btn { cursor:pointer; padding:10px 12px; border-radius: 12px; border:1px solid #2b3e6e; background:#182245; color:#e9eef7; font-weight:600;}
+    .btn:disabled{ opacity:0.5; cursor:not-allowed;}
+    .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="big">Job Match Metric Demo</div>
+      <div class="muted">Explore match scores, interpretability, and recommendations.</div>
+      <div style="margin-top:10px">
+        <span class="pill" id="m_auc">AUC: —</span>
+        <span class="pill" id="m_mean">Mean score: —</span>
+        <span class="pill" id="m_std">Std: —</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <label>Select user</label>
+        <select id="userSelect"></select>
+        <div class="muted" style="margin-top:10px" id="userSummary"></div>
+
+        <div style="margin-top:14px">
+          <label>Positions (click one to inspect)</label>
+          <table id="posTable">
+            <thead><tr><th>Title</th><th>SOC</th><th>Final</th><th>Category</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <label>Inspection</label>
+        <div class="grid3">
+          <div class="card" style="margin:0">
+            <div class="muted">Final</div>
+            <div class="big" id="v_final">—</div>
+          </div>
+          <div class="card" style="margin:0">
+            <div class="muted">Task/Skill</div>
+            <div class="big" id="v_tfidf">—</div>
+          </div>
+          <div class="card" style="margin:0">
+            <div class="muted">Edu / Exp / Train</div>
+            <div class="mono" id="v_subs">—</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <div class="muted">Why this score</div>
+          <div class="mono" id="whyBox">(This demo can optionally show user_doc and SOC tasks if included in your export.)</div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <div class="muted">Recommendations (Top SOCs)</div>
+          <table id="recTable">
+            <thead><tr><th>SOC</th><th>Title</th><th>Score</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+        <div>
+          <div style="font-weight:700">Try custom text (optional)</div>
+          <div class="muted">Paste resume/skills text and see recommended SOCs (requires optional local API, see below).</div>
+        </div>
+        <button class="btn" id="btnCustom" disabled>Get recommendations</button>
+      </div>
+      <div style="margin-top:12px">
+        <textarea id="customText" placeholder="Paste resume/skills here..."></textarea>
+      </div>
+      <div class="muted" id="customHint" style="margin-top:8px">
+        Custom text recommender is disabled unless you run demo/app.py.
+      </div>
+      <table id="customRecTable" style="margin-top:12px">
+        <thead><tr><th>SOC</th><th>Title</th><th>Score</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+  </div>
+
+<script>
+  const state = {
+    users: [],
+    posByUser: {},
+    recsByUser: {},
+    metrics: {},
+    selectedUser: null,
+    selectedPos: null,
+    apiAvailable: false,
+  };
+
+  async function loadJSON(path) {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(`Failed ${path}`);
+    return res.json();
+  }
+
+  function fmt(x) {
+    if (x === null || x === undefined || Number.isNaN(x)) return "—";
+    return (Math.round(x * 1000) / 1000).toFixed(3);
+  }
+
+  function renderUserSelect() {
+    const sel = document.getElementById("userSelect");
+    sel.innerHTML = "";
+    state.users.slice(0, 1000).forEach(u => {
+      const opt = document.createElement("option");
+      opt.value = u.user_id;
+      opt.textContent = `${u.user_id} · avg ${fmt(u.avg_match)} · ${u.n_positions} roles · ${u.latest_title || ""}`;
+      sel.appendChild(opt);
+    });
+    sel.addEventListener("change", () => {
+      state.selectedUser = sel.value;
+      renderUser();
+    });
+    state.selectedUser = sel.value;
+  }
+
+  function renderUser() {
+    const uid = state.selectedUser;
+    const summary = state.users.find(x => String(x.user_id) === String(uid));
+    document.getElementById("userSummary").textContent =
+      summary ? `User ${uid} · positions: ${summary.n_positions} · avg match: ${fmt(summary.avg_match)}` : "";
+
+    // positions table
+    const tbody = document.querySelector("#posTable tbody");
+    tbody.innerHTML = "";
+    const rows = state.posByUser[String(uid)] || [];
+    rows.forEach(r => {
+      const tr = document.createElement("tr");
+      tr.style.cursor = "pointer";
+      tr.innerHTML = `
+        <td>${r.jobtitle_raw || ""}</td>
+        <td class="mono">${r.soc_code || ""}</td>
+        <td>${fmt(r.match_score_final)}</td>
+        <td>${r.match_category || ""}</td>
+      `;
+      tr.addEventListener("click", () => { state.selectedPos = r; renderInspection(); });
+      tbody.appendChild(tr);
+    });
+
+    // recommendations table
+    const recT = document.querySelector("#recTable tbody");
+    recT.innerHTML = "";
+    (state.recsByUser[String(uid)] || []).forEach(r => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td class="mono">${r.soc_code}</td><td>${r.soc_title || ""}</td><td>${fmt(r.score)}</td>`;
+      recT.appendChild(tr);
+    });
+
+    // default inspect first row
+    state.selectedPos = rows[0] || null;
+    renderInspection();
+  }
+
+  function renderInspection() {
+    const p = state.selectedPos;
+    document.getElementById("v_final").textContent = p ? fmt(p.match_score_final) : "—";
+    document.getElementById("v_tfidf").textContent = p ? fmt(p.match_score_tfidf_v2) : "—";
+    document.getElementById("v_subs").textContent = p
+      ? `edu ${fmt(p.edu_match_score)}\nexp ${fmt(p.exp_match_score)}\ntrain ${fmt(p.train_match_score)}`
+      : "—";
+
+    // We only show "why" if you exported user_doc/soc_doc; otherwise placeholder
+    // (You can extend artifacts to include task lists per SOC if you want.)
+    document.getElementById("whyBox").textContent =
+      p ? `Title: ${p.jobtitle_raw || ""}\nSOC: ${p.soc_code || ""}\nCategory: ${p.match_category || ""}\n\nTip: export user_doc/soc_doc + SOC top tasks to make this section fully explainable.`
+        : "(select a position)";
+  }
+
+  async function checkAPI() {
+    try {
+      const res = await fetch("/api/health");
+      state.apiAvailable = res.ok;
+    } catch { state.apiAvailable = false; }
+    document.getElementById("btnCustom").disabled = !state.apiAvailable;
+    document.getElementById("customHint").textContent = state.apiAvailable
+      ? "API detected. Paste text and click to get top SOCs."
+      : "Custom text recommender is disabled unless you run demo/app.py.";
+  }
+
+  async function customRecommend() {
+    const txt = document.getElementById("customText").value || "";
+    const tbody = document.querySelector("#customRecTable tbody");
+    tbody.innerHTML = "";
+    if (!txt.trim()) return;
+
+    const res = await fetch("/api/recommend", {
+      method: "POST",
+      headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({ text: txt, topk: 10 })
+    });
+    const data = await res.json();
+    (data.recs || []).forEach(r => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td class="mono">${r.soc_code}</td><td>${r.soc_title}</td><td>${fmt(r.score)}</td>`;
+      tbody.appendChild(tr);
+    });
+  }
+
+  async function main() {
+    state.metrics = await loadJSON("./data/metrics.json");
+    state.users = await loadJSON("./data/users.json");
+    state.posByUser = await loadJSON("./data/positions_by_user.json");
+    state.recsByUser = await loadJSON("./data/recs_by_user.json");
+
+    document.getElementById("m_auc").textContent = `Improvement AUC: ${fmt(state.metrics.improvement_auc)}`;
+    document.getElementById("m_mean").textContent = `Mean score: ${fmt(state.metrics.final_score_mean)}`;
+    document.getElementById("m_std").textContent = `Std: ${fmt(state.metrics.final_score_std)}`;
+
+    renderUserSelect();
+    renderUser();
+
+    document.getElementById("btnCustom").addEventListener("click", customRecommend);
+    await checkAPI();
+  }
+
+  main().catch(err => {
+    console.error(err);
+    alert("Failed to load demo data. Make sure you're serving this folder via a local web server.");
+  });
+</script>
+</body>
+</html>
