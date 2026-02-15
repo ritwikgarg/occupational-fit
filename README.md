@@ -12,13 +12,13 @@ This project builds a composite *occupational fit score* by combining multiple s
 
 The final score is:
 
-[
-\text{match_score_final} =
-w_{\text{tfidf}}\cdot\text{tfidf} +
-w_{\text{edu}}\cdot\text{edu} +
-w_{\text{exp}}\cdot\text{exp} +
-w_{\text{train}}\cdot\text{train}
-]
+$$
+\text{match\_score} =
+w_{\text{tfidf}}\cdot tfidf +
+w_{\text{edu}}\cdot edu +
+w_{\text{exp}}\cdot exp +
+w_{\text{train}}\cdot train
+$$
 
 The weights are **learned from the data**, not chosen manually.
 For each component we compute ANOVA eta-squared (η²), which measures how much variation in that feature is explained by occupation differences. Features that distinguish occupations better receive higher weight. The normalized weights are saved to `data/derived_weights.json`.
