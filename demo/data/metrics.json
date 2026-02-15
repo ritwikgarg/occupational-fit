@@ -1,8 +1,21 @@
 {
-  "share_missing_soc_code_final": 0.049013747758517634,
-  "final_score_mean": 0.41236825909601554,
-  "final_score_std": 0.09700706085221868,
-  "improvement_auc": 0.705678329312622,
-  "improvement_decile_low": 0.83945,
-  "improvement_decile_high": 0.082569
+  "share_missing_soc_code_final": 0.049616066154754876,
+  "final_score_mean": 0.6772142702003308,
+  "final_score_std": 0.11029417516202074,
+  "improvement_auc": 0.7109003300988633,
+  "improvement_decile_low": 0.8558558558558559,
+  "improvement_decile_high": 0.09049773755656108,
+  "weights": {
+    "match_score_tfidf_v2": 0.2915,
+    "edu_match_score": 0.1547,
+    "exp_match_score": 0.1686,
+    "train_match_score": 0.3852
+  },
+  "weights_method": "eta_squared_anova",
+  "weights_eta_squared": {
+    "match_score_tfidf_v2": 0.583967,
+    "edu_match_score": 0.309993,
+    "exp_match_score": 0.337702,
+    "train_match_score": 0.771742
+  }
 }

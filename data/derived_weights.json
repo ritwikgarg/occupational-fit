@@ -1,0 +1,18 @@
+{
+  "method": "eta_squared_anova",
+  "description": "Weights derived from between-SOC variance ratio (eta-squared). Higher eta-squared means the component better discriminates between occupations.",
+  "weights": {
+    "match_score_tfidf_v2": 0.2915,
+    "edu_match_score": 0.1547,
+    "exp_match_score": 0.1686,
+    "train_match_score": 0.3852
+  },
+  "eta_squared": {
+    "match_score_tfidf_v2": 0.583967,
+    "edu_match_score": 0.309993,
+    "exp_match_score": 0.337702,
+    "train_match_score": 0.771742
+  },
+  "n_soc_groups": 428,
+  "n_positions": 3218
+}

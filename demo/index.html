@@ -3,123 +3,246 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Job Match Metric Demo</title>
+  <title>Occupational Fit Demo</title>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 0; background: #0b0d12; color: #e9eef7; }
-    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px; }
-    .card { background: #121826; border: 1px solid #1f2a44; border-radius: 16px; padding: 16px; margin: 12px 0; }
-    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    label { font-size: 12px; color: #a9b6d3; display:block; margin-bottom: 6px; }
-    select, input, textarea { width: 100%; padding: 10px; border-radius: 12px; border: 1px solid #263659; background: #0f1420; color: #e9eef7; }
-    textarea { min-height: 110px; }
-    .pill { display:inline-block; padding: 4px 10px; border-radius: 999px; background:#1b2540; border:1px solid #2b3e6e; margin-right:8px; font-size: 12px; }
-    .big { font-size: 34px; font-weight: 700; }
-    .muted { color:#a9b6d3; }
-    table { width:100%; border-collapse: collapse; }
-    td, th { border-bottom: 1px solid #1f2a44; padding: 8px; font-size: 13px; vertical-align: top; }
-    th { text-align:left; color:#a9b6d3; font-weight:600; }
-    .btn { cursor:pointer; padding:10px 12px; border-radius: 12px; border:1px solid #2b3e6e; background:#182245; color:#e9eef7; font-weight:600;}
-    .btn:disabled{ opacity:0.5; cursor:not-allowed;}
-    .grid3 { display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    :root{
+      --bg:#0b0d12; --panel:#121826; --panel2:#0f1420;
+      --border:#1f2a44; --border2:#263659;
+      --text:#e9eef7; --muted:#a9b6d3; --accent:#4da3ff;
+      --ok:#3ddc97; --warn:#ffcc66; --bad:#ff6b6b;
+    }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1150px;margin:0 auto;padding:22px}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:16px;margin:12px 0}
+    .row{display:grid;grid-template-columns:1fr 1.1fr;gap:12px}
+    .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    label{font-size:12px;color:var(--muted);display:block;margin-bottom:6px}
+    select,textarea,input{width:100%;padding:10px;border-radius:12px;border:1px solid var(--border2);background:var(--panel2);color:var(--text);box-sizing:border-box}
+    textarea{min-height:110px}
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;background:#1b2540;border:1px solid #2b3e6e;margin-right:8px;font-size:12px}
+    .big{font-size:34px;font-weight:800}
+    .muted{color:var(--muted)}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    table{width:100%;border-collapse:collapse}
+    td,th{border-bottom:1px solid var(--border);padding:8px;font-size:13px;vertical-align:top}
+    th{text-align:left;color:var(--muted);font-weight:600}
+    .kpi-title{font-size:12px;color:var(--muted);margin-bottom:6px}
+    .kpi-box{background:#0f1420;border:1px solid var(--border);border-radius:16px;padding:14px}
+    .bar{height:10px;background:#1f2a44;border-radius:999px;overflow:hidden}
+    .bar>div{height:100%;width:0%;background:var(--accent);border-radius:999px;transition:width 200ms ease}
+    .title{font-size:40px;font-weight:900}
+    .subtitle{font-size:16px;color:var(--muted);margin-top:4px}
+    .divider{height:1px;background:var(--border);margin:10px 0}
+    .small{font-size:12px;color:var(--muted)}
+    .pos-row:hover{background:#0f1420}
+    .pos-row.selected{background:#162040;outline:2px solid var(--accent);outline-offset:-2px}
+    .right{text-align:right}
+    .kv{display:grid;grid-template-columns:220px 1fr;gap:8px 12px;margin-top:10px}
+    .k{color:var(--muted);font-size:12px}
+    .v{font-size:13px}
+    .chip{display:inline-block;padding:3px 8px;border:1px solid var(--border2);background:#0b1020;border-radius:999px;margin-right:6px;margin-bottom:6px;font-size:12px}
+    .skill-chip{display:inline-block;padding:3px 10px;border:1px solid #2b5e4e;background:#0b201a;border-radius:999px;margin:2px 4px 2px 0;font-size:11px;color:var(--ok)}
+    .minibar{height:8px;background:#1a2240;border-radius:4px;overflow:hidden;margin-top:4px}
+    .minibar>div{height:100%;border-radius:4px;transition:width 200ms ease}
+    .conf-badge{display:inline-block;padding:2px 8px;border-radius:6px;font-size:11px;font-weight:600;margin-left:8px}
+    .legend{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .legend-item{background:#0f1420;border:1px solid var(--border);border-radius:12px;padding:10px}
+    .legend-item b{font-size:13px}
+    .btn{padding:10px 12px;border-radius:10px;border:1px solid var(--border2);background:#1b2540;color:var(--text);cursor:pointer}
+    .btn:hover{filter:brightness(1.08)}
   </style>
 </head>
 <body>
-  <div class="wrap">
+<div class="wrap">
+
+  <div class="card">
+    <div class="title">Occupational Fit Demo</div>
+    <div class="subtitle">A human-readable view of your match score, why it’s high/low, and what roles may fit better.</div>
+    <div style="margin-top:10px">
+      <span class="pill" id="m_auc">Improvement AUC: —</span>
+      <span class="pill" id="m_mean">Mean score: —</span>
+      <span class="pill" id="m_std">Std: —</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="kpi-title">How to read this page</div>
+    <div class="legend" style="margin-top:8px">
+      <div class="legend-item">
+        <b>1) Start left → inspect right</b>
+        <div class="small" style="margin-top:6px">Pick a user, then click a position. The right panel explains the selected role’s fit and component scores.</div>
+      </div>
+      <div class="legend-item">
+        <b>2) Score meaning</b>
+        <div class="small" style="margin-top:6px">Overall fit is 0–1. Rough guide: &lt;0.30 poor, 0.30–0.45 weak, 0.45–0.60 moderate, 0.60–0.75 good, &gt;0.75 excellent.</div>
+      </div>
+      <div class="legend-item">
+        <b>3) Why a score changes</b>
+        <div class="small" style="margin-top:6px">Component weights are derived from data (ANOVA eta-squared: between-SOC variance ratio). The resulting weights are shown in each component bar.</div>
+      </div>
+      <div class="legend-item">
+        <b>4) Recommendations</b>
+        <div class="small" style="margin-top:6px">The recommendation table suggests nearby SOC occupations based on profile text similarity.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- LEFT -->
     <div class="card">
-      <div class="big">Job Match Metric Demo</div>
-      <div class="muted">Explore match scores, interpretability, and recommendations.</div>
-      <div style="margin-top:10px">
-        <span class="pill" id="m_auc">AUC: —</span>
-        <span class="pill" id="m_mean">Mean score: —</span>
-        <span class="pill" id="m_std">Std: —</span>
+      <label>Select user</label>
+      <select id="userSelect"></select>
+      <div class="muted" style="margin-top:10px" id="userSummary"></div>
+
+      <div style="margin-top:14px">
+        <label>Positions (click one to inspect)</label>
+        <table id="posTable">
+          <thead>
+          <tr>
+            <th>Title</th>
+            <th class="mono">SOC</th>
+            <th class="right">Score</th>
+            <th>Label</th>
+          </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- NEW: Evidence always visible -->
+      <div class="kpi-box" style="margin-top:14px">
+        <div class="kpi-title">User evidence (what we know about this person)</div>
+        <div class="small muted">This is the data the score is using: skills/profile text, education proxy, and history summaries.</div>
+
+        <div class="divider"></div>
+        <b style="font-size:13px;">Skills / profile text</b>
+        <div class="small" id="userDocBox" style="margin-top:6px; line-height:1.5;"></div>
+
+        <div class="divider"></div>
+        <b style="font-size:13px;">Education</b>
+        <div class="kv" id="userEduBox"></div>
+
+        <div class="divider"></div>
+        <b style="font-size:13px;">Selected occupation requirements</b>
+        <div class="kv" id="occReqBox"></div>
+
+        
       </div>
     </div>
 
-    <div class="row">
-      <div class="card">
-        <label>Select user</label>
-        <select id="userSelect"></select>
-        <div class="muted" style="margin-top:10px" id="userSummary"></div>
+    <!-- RIGHT -->
+    <div class="card">
+      <label>Inspection</label>
 
-        <div style="margin-top:14px">
-          <label>Positions (click one to inspect)</label>
-          <table id="posTable">
-            <thead><tr><th>Title</th><th>SOC</th><th>Final</th><th>Category</th></tr></thead>
-            <tbody></tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="card">
-        <label>Inspection</label>
-        <div class="grid3">
-          <div class="card" style="margin:0">
-            <div class="muted">Final</div>
+      <div class="kpi-box">
+        <div class="kpi-title">Overall occupational fit</div>
+        <div style="display:flex; align-items:flex-end; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+          <div>
             <div class="big" id="v_final">—</div>
+            <div class="muted" id="fitLabel">Select a position</div>
           </div>
-          <div class="card" style="margin:0">
-            <div class="muted">Task/Skill</div>
-            <div class="big" id="v_tfidf">—</div>
+          <div style="min-width:260px; flex: 1 1 320px;">
+            <div class="bar"><div id="fitBar"></div></div>
+            <div class="small" id="fitMessage" style="margin-top:8px;"></div>
           </div>
-          <div class="card" style="margin:0">
-            <div class="muted">Edu / Exp / Train</div>
-            <div class="mono" id="v_subs">—</div>
+        </div>
+      </div>
+
+      <div class="grid3" style="margin-top:12px;">
+        <div class="kpi-box">
+          <div class="kpi-title">Task/skill similarity</div>
+          <div class="big" id="v_tfidf">—</div>
+          <div class="small muted">Higher means closer overlap with typical tasks for this occupation.</div>
+        </div>
+
+        <div class="kpi-box">
+          <div class="kpi-title">Education / Experience / Training (scores)</div>
+          <div class="mono" id="v_subs" style="white-space:pre-line;">—</div>          <div id="componentBars" style="margin-top:10px;"></div>          <div class="small muted" style="margin-top:8px;">
+            These are “requirement met?” signals. The evidence for these is shown on the left under <b>User evidence</b>.
           </div>
         </div>
 
-        <div class="card" style="margin-top:12px">
-          <div class="muted">Why this score</div>
-          <div class="mono" id="whyBox">(This demo can optionally show user_doc and SOC tasks if included in your export.)</div>
+        <div class="kpi-box">
+          <div class="kpi-title">Summary</div>
+          <div class="small" id="summaryBox" style="line-height:1.5;"></div>
         </div>
+      </div>
 
-        <div class="card" style="margin-top:12px">
-          <div class="muted">Recommendations (Top SOCs)</div>
-          <table id="recTable">
-            <thead><tr><th>SOC</th><th>Title</th><th>Score</th></tr></thead>
-            <tbody></tbody>
-          </table>
-        </div>
+      <div class="kpi-box" style="margin-top:12px;">
+        <div class="kpi-title">Why this score</div>
+        <div class="small" id="whyBox" style="line-height:1.6;">Select a position to see an explanation.</div>
+      </div>
 
+      <div class="kpi-box" style="margin-top:12px;">
+        <div class="kpi-title">Recommendations (next role exploration)</div>
+        <table id="recTable">
+          <thead>
+          <tr><th class="mono">SOC</th><th>Occupation Title</th><th class="right">Score</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="kpi-title">Try custom recommendation via API</div>
+    <div class="small muted">Uses <span class="mono">app.py</span> endpoint <span class="mono">/api/recommend</span> so you can test arbitrary profile text.</div>
+
+    <div class="grid2" style="margin-top:12px">
+      <div>
+        <label>API URL</label>
+        <input id="apiUrl" value="http://127.0.0.1:8001/api/recommend" />
+      </div>
+      <div>
+        <label>Top K</label>
+        <input id="apiTopk" type="number" min="1" max="50" value="8" />
       </div>
     </div>
 
-    <div class="card">
-      <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
-        <div>
-          <div style="font-weight:700">Try custom text (optional)</div>
-          <div class="muted">Paste resume/skills text and see recommended SOCs (requires optional local API, see below).</div>
-        </div>
-        <button class="btn" id="btnCustom" disabled>Get recommendations</button>
+    <div style="margin-top:10px">
+      <label>Profile text to score</label>
+      <textarea id="apiText" placeholder="Paste a profile, resume summary, or skill narrative..."></textarea>
+      <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+        <button class="btn" id="apiUseSelected">Use selected user's profile text</button>
+        <button class="btn" id="apiRunBtn">Run API recommendation</button>
       </div>
-      <div style="margin-top:12px">
-        <textarea id="customText" placeholder="Paste resume/skills here..."></textarea>
-      </div>
-      <div class="muted" id="customHint" style="margin-top:8px">
-        Custom text recommender is disabled unless you run demo/app.py.
-      </div>
-      <table id="customRecTable" style="margin-top:12px">
-        <thead><tr><th>SOC</th><th>Title</th><th>Score</th></tr></thead>
+      <div class="small" id="apiStatus" style="margin-top:8px"></div>
+    </div>
+
+    <div class="kpi-box" style="margin-top:12px">
+      <div class="kpi-title">API results</div>
+      <table id="apiRecTable">
+        <thead>
+        <tr><th class="mono">SOC</th><th>Occupation Title</th><th class="right">Score</th></tr>
+        </thead>
         <tbody></tbody>
       </table>
     </div>
-
   </div>
+
+</div>
 
 <script>
   const state = {
     users: [],
     posByUser: {},
     recsByUser: {},
+    userEvidence: {},
     metrics: {},
+    socTitleMap: new Map(),
     selectedUser: null,
     selectedPos: null,
-    apiAvailable: false,
+    // Weights loaded from metrics.json (derived from data)
+    w: { tfidf: 0.60, edu: 0.20, exp: 0.15, train: 0.05 },
+    weightsMethod: "hardcoded_fallback",
   };
 
   async function loadJSON(path) {
     const res = await fetch(path);
-    if (!res.ok) throw new Error(`Failed ${path}`);
+    if (!res.ok) throw new Error(`Failed to fetch ${path} (${res.status})`);
     return res.json();
   }
 
@@ -127,14 +250,121 @@
     if (x === null || x === undefined || Number.isNaN(x)) return "—";
     return (Math.round(x * 1000) / 1000).toFixed(3);
   }
+  function pct01(x) {
+    if (x === null || x === undefined || Number.isNaN(x)) return "—";
+    return `${Math.round(x * 100)}%`;
+  }
+  function safeNum(x, fallback=0){
+    const v = Number(x);
+    return Number.isFinite(v) ? v : fallback;
+  }
+  function hasVal(v){
+    return v !== null && v !== undefined && !(typeof v === "number" && Number.isNaN(v)) && String(v).trim() !== "";
+  }
+  function escapeHTML(s){
+    if (!hasVal(s)) return s;
+    return String(s)
+      .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;").replaceAll("'","&#039;");
+  }
+
+  function interpretFinalScore(s){
+    if (s < 0.30) return ["Poor fit", "This looks like a mismatch: people often move to a different occupation type.", "var(--bad)"];
+    if (s < 0.45) return ["Weak fit", "Some overlap exists, but many people transition to better-fitting occupations.", "var(--warn)"];
+    if (s < 0.60) return ["Moderate fit", "You can do this role, but there are likely stronger occupational matches.", "var(--accent)"];
+    if (s < 0.75) return ["Good fit", "This occupation aligns well with the user’s background.", "var(--ok)"];
+    return ["Excellent fit", "Very strong alignment; improvements are usually small from here.", "var(--ok)"];
+  }
+  function levelWord(v){
+    if (v === null || v === undefined || Number.isNaN(v)) return "UNKNOWN";
+    if (v < 0.40) return "LOW";
+    if (v < 0.70) return "MEDIUM";
+    return "HIGH";
+  }
+
+  function socTitle(soc){
+    const k = String(soc || "");
+    return state.socTitleMap.get(k) || k || "—";
+  }
+  function kvRow(k, v){
+    const val = hasVal(v) ? v : "<span class='muted'>(not available)</span>";
+    return `<div class="k">${k}</div><div class="v">${val}</div>`;
+  }
+
+  function renderUserEvidence(uid){
+    const ev = state.userEvidence[String(uid)] || {};
+    const doc = ev.user_doc || "";
+    document.getElementById("userDocBox").innerHTML =
+      doc ? `<span class="mono">${escapeHTML(doc.slice(0, 700))}${doc.length>700 ? "…" : ""}</span>` :
+            `<span class="muted">(not available)</span>`;
+
+    // Skills as chips
+    const skills = ev.skills || [];
+    const skillsHTML = skills.length > 0
+      ? skills.slice(0, 25).map(s => `<span class="skill-chip">${escapeHTML(s)}</span>`).join("") +
+        (skills.length > 25 ? `<span class="muted"> +${skills.length - 25} more</span>` : "")
+      : "";
+    const skillSection = skillsHTML ? `<div class="divider"></div><b style="font-size:13px;">Skills</b><div style="margin-top:6px">${skillsHTML}</div>` : "";
+
+    // Education block
+    const eduHTML = [
+      kvRow("User education level (normalized)", hasVal(ev.user_edu_level) ? fmt(ev.user_edu_level) : ev.user_edu_level),
+      kvRow("Education raw examples", ev.education_examples ? escapeHTML(ev.education_examples) : null)
+    ].join("");
+    document.getElementById("userEduBox").innerHTML = eduHTML;
+
+    // Inject skills section after education
+    const eduBox = document.getElementById("userEduBox");
+    const existingSkills = document.getElementById("userSkillsSection");
+    if (existingSkills) existingSkills.remove();
+    if (skillSection) {
+      const div = document.createElement("div");
+      div.id = "userSkillsSection";
+      div.innerHTML = skillSection;
+      eduBox.parentElement.insertBefore(div, eduBox.nextSibling);
+    }
+  }
+
+  function renderOccRequirements(p){
+    // occupation-side evidence from the selected position row
+    const reqHTML = [
+      kvRow("Occupation", escapeHTML(socTitle(p?.soc_code))),
+      kvRow("SOC code", `<span class="mono">${escapeHTML(p?.soc_code || "")}</span>`),
+      kvRow("Required edu level (normalized)", hasVal(p?.req_edu_level) ? fmt(p.req_edu_level) : p?.req_edu_level),
+      kvRow("User edu level (normalized)", hasVal(p?.user_edu_level) ? fmt(p.user_edu_level) : p?.user_edu_level),
+      kvRow("Education gap (user - required)", hasVal(p?.edu_gap) ? fmt(p.edu_gap) : p?.edu_gap),
+      kvRow("Required exp (years)", hasVal(p?.req_exp_years) ? fmt(p.req_exp_years) : p?.req_exp_years),
+      kvRow("User exp (years)", hasVal(p?.user_exp_years) ? fmt(p.user_exp_years) : p?.user_exp_years),
+      kvRow("Experience gap", hasVal(p?.exp_gap) ? fmt(p.exp_gap) : p?.exp_gap),
+      kvRow("Training requirement", escapeHTML(p?.req_training_level || p?.req_train_level || p?.train_req_level)),
+    ].join("");
+    document.getElementById("occReqBox").innerHTML = reqHTML;
+  }
+
+  function summarize(p){
+    const skill = safeNum(p.match_score_tfidf_v2, 0);
+    const label = (p.match_category || "").toString();
+    let line1 = `<b>Label:</b> ${escapeHTML(label || "—")}`;
+    let line2 = `<b>Interpretation:</b> `;
+    if (label === "overqualified" && (skill < 0.20)) line2 += `Education/experience are sufficient, but tasks don’t match the profile (wrong lane).`;
+    else if (label === "underqualified") line2 += `Requirements likely exceed current preparation.`;
+    else if (label === "mismatch" || (skill < 0.10 && safeNum(p.match_score_final,0) < 0.35)) line2 += `Low task overlap suggests this occupation may not fit.`;
+    else if (safeNum(p.match_score_final,0) >= 0.60) line2 += `Strong overall match.`;
+    else line2 += `Mixed evidence; better matches may exist.`;
+
+    const edu=p.edu_match_score, exp=p.exp_match_score, trn=p.train_match_score;
+    let line3 = `<span class="muted">Components:</span> Skills ${levelWord(skill)}, Education ${levelWord(edu)}, Experience ${levelWord(exp)}, Training ${levelWord(trn)}.`;
+    return `${line1}<br>${line2}<br>${line3}`;
+  }
 
   function renderUserSelect() {
     const sel = document.getElementById("userSelect");
     sel.innerHTML = "";
-    state.users.slice(0, 1000).forEach(u => {
+    state.users.slice(0, 2000).forEach(u => {
       const opt = document.createElement("option");
       opt.value = u.user_id;
-      opt.textContent = `${u.user_id} · avg ${fmt(u.avg_match)} · ${u.n_positions} roles · ${u.latest_title || ""}`;
+      const latest = (u.latest_title || "").toString().slice(0, 70);
+      opt.textContent = `${u.user_id} · avg ${fmt(u.avg_match)} · ${u.n_positions} roles · ${latest}`;
       sel.appendChild(opt);
     });
     sel.addEventListener("change", () => {
@@ -150,87 +380,218 @@
     document.getElementById("userSummary").textContent =
       summary ? `User ${uid} · positions: ${summary.n_positions} · avg match: ${fmt(summary.avg_match)}` : "";
 
+    renderUserEvidence(uid);
+
     // positions table
     const tbody = document.querySelector("#posTable tbody");
     tbody.innerHTML = "";
     const rows = state.posByUser[String(uid)] || [];
     rows.forEach(r => {
       const tr = document.createElement("tr");
+      tr.className = "pos-row";
       tr.style.cursor = "pointer";
       tr.innerHTML = `
-        <td>${r.jobtitle_raw || ""}</td>
-        <td class="mono">${r.soc_code || ""}</td>
-        <td>${fmt(r.match_score_final)}</td>
-        <td>${r.match_category || ""}</td>
+        <td>${escapeHTML(r.jobtitle_raw || "")}</td>
+        <td class="mono" title="${escapeHTML(socTitle(r.soc_code))}">${escapeHTML(r.soc_code || "")}</td>
+        <td class="right">${fmt(r.match_score_final)}</td>
+        <td>${escapeHTML(r.match_category || "")}</td>
       `;
-      tr.addEventListener("click", () => { state.selectedPos = r; renderInspection(); });
+      tr.addEventListener("click", () => {
+        // Remove highlight from all rows
+        tbody.querySelectorAll(".pos-row").forEach(el => el.classList.remove("selected"));
+        tr.classList.add("selected");
+        state.selectedPos = r;
+        renderInspection();
+      });
       tbody.appendChild(tr);
     });
 
-    // recommendations table
+    // recommendations table (SOC + real title)
     const recT = document.querySelector("#recTable tbody");
     recT.innerHTML = "";
     (state.recsByUser[String(uid)] || []).forEach(r => {
+      const code = String(r.soc_code || "");
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td class="mono">${r.soc_code}</td><td>${r.soc_title || ""}</td><td>${fmt(r.score)}</td>`;
+      tr.innerHTML = `
+        <td class="mono">${escapeHTML(code)}</td>
+        <td>${escapeHTML(socTitle(code))}</td>
+        <td class="right">${fmt(r.score)}</td>
+      `;
       recT.appendChild(tr);
     });
 
-    // default inspect first row
     state.selectedPos = rows[0] || null;
     renderInspection();
   }
 
   function renderInspection() {
     const p = state.selectedPos;
-    document.getElementById("v_final").textContent = p ? fmt(p.match_score_final) : "—";
-    document.getElementById("v_tfidf").textContent = p ? fmt(p.match_score_tfidf_v2) : "—";
-    document.getElementById("v_subs").textContent = p
-      ? `edu ${fmt(p.edu_match_score)}\nexp ${fmt(p.exp_match_score)}\ntrain ${fmt(p.train_match_score)}`
-      : "—";
+    if (!p) return;
 
-    // We only show "why" if you exported user_doc/soc_doc; otherwise placeholder
-    // (You can extend artifacts to include task lists per SOC if you want.)
-    document.getElementById("whyBox").textContent =
-      p ? `Title: ${p.jobtitle_raw || ""}\nSOC: ${p.soc_code || ""}\nCategory: ${p.match_category || ""}\n\nTip: export user_doc/soc_doc + SOC top tasks to make this section fully explainable.`
-        : "(select a position)";
+    const final = safeNum(p.match_score_final, 0);
+    const tfidf = safeNum(p.match_score_tfidf_v2, 0);
+
+    document.getElementById("v_final").textContent = fmt(final);
+    document.getElementById("v_tfidf").textContent = fmt(tfidf);
+
+    const [lab, msg, color] = interpretFinalScore(final);
+    document.getElementById("fitLabel").textContent = `${lab} · ${pct01(final)} aligned`;
+    const bar = document.getElementById("fitBar");
+    bar.style.width = `${Math.max(0, Math.min(100, Math.round(final * 100)))}%`;
+    bar.style.background = `linear-gradient(90deg, ${color}, var(--accent))`;
+    document.getElementById("fitMessage").textContent = msg;
+
+    const edu = p.edu_match_score, exp = p.exp_match_score, trn = p.train_match_score;
+    document.getElementById("v_subs").textContent =
+      `Education: ${levelWord(edu)} (${fmt(edu)})\n` +
+      `Experience: ${levelWord(exp)} (${fmt(exp)})\n` +
+      `Training: ${levelWord(trn)} (${fmt(trn)})`;
+
+    // Component mini-bars
+    const minibarContainer = document.getElementById("componentBars");
+    if (minibarContainer) {
+      const components = [
+        { name: `Task/Skill (${(state.w.tfidf*100).toFixed(0)}%)`, val: tfidf, weight: state.w.tfidf, color: "var(--accent)" },
+        { name: `Education (${(state.w.edu*100).toFixed(0)}%)`, val: safeNum(edu), weight: state.w.edu, color: "#a78bfa" },
+        { name: `Experience (${(state.w.exp*100).toFixed(0)}%)`, val: safeNum(exp), weight: state.w.exp, color: "#f59e0b" },
+        { name: `Training (${(state.w.train*100).toFixed(0)}%)`, val: safeNum(trn), weight: state.w.train, color: "#6ee7b7" },
+      ];
+      minibarContainer.innerHTML = components.map(c => {
+        const pctW = Math.round(c.val * 100);
+        const contribution = (c.val * c.weight).toFixed(3);
+        return `<div style="margin-bottom:6px">
+          <div class="small" style="display:flex;justify-content:space-between">
+            <span>${c.name}</span>
+            <span class="mono">${fmt(c.val)} → +${contribution}</span>
+          </div>
+          <div class="minibar"><div style="width:${pctW}%;background:${c.color}"></div></div>
+        </div>`;
+      }).join("");
+    }
+
+    document.getElementById("summaryBox").innerHTML = summarize(p);
+
+    const title = (p.jobtitle_raw || "").toString();
+    const soc = (p.soc_code || "").toString();
+    const cat = (p.match_category || "").toString();
+    const skillTxt = tfidf < 0.10 ? "very low" : (tfidf < 0.20 ? "low" : (tfidf < 0.35 ? "moderate" : "high"));
+
+    const whyLines = [];
+    whyLines.push(`<b>${escapeHTML(title)}</b> mapped to <span class="mono">${escapeHTML(soc)}</span> (${escapeHTML(socTitle(soc))})`);
+    if (cat) whyLines.push(`Category label: <b>${escapeHTML(cat)}</b>`);
+    whyLines.push(`Task/skill overlap is <b>${skillTxt}</b> (task/skill similarity = ${fmt(tfidf)}).`);
+
+    // Mapping confidence indicator
+    const conf = p.mapping_confidence;
+    if (hasVal(conf)) {
+      const cv = safeNum(conf, 0);
+      let confColor, confLabel;
+      if (cv >= 0.8) { confColor = "var(--ok)"; confLabel = "High confidence"; }
+      else if (cv >= 0.5) { confColor = "var(--warn)"; confLabel = "Medium confidence"; }
+      else { confColor = "var(--bad)"; confLabel = "Low confidence"; }
+      whyLines.push(`SOC mapping: <span class="conf-badge" style="background:${confColor};color:#000">${confLabel} (${fmt(conf)})</span>`);
+    }
+
+    // Score formula breakdown
+    const eduC = safeNum(p.edu_match_score, 0) * state.w.edu;
+    const expC = safeNum(p.exp_match_score, 0) * state.w.exp;
+    const trnC = safeNum(p.train_match_score, 0) * state.w.train;
+    const tfidfC = tfidf * state.w.tfidf;
+    whyLines.push(`<span class="muted">Formula: ${state.w.tfidf.toFixed(2)}\u00D7${fmt(tfidf)} + ${state.w.edu.toFixed(2)}\u00D7${fmt(p.edu_match_score)} + ${state.w.exp.toFixed(2)}\u00D7${fmt(p.exp_match_score)} + ${state.w.train.toFixed(2)}\u00D7${fmt(p.train_match_score)} = <b>${fmt(tfidfC + eduC + expC + trnC)}</b></span>`);
+    if (state.weightsMethod !== "hardcoded_fallback") {
+      whyLines.push(`<span class="muted small">Weights derived via ${state.weightsMethod.replace(/_/g, ' ')}</span>`);
+    }
+
+    document.getElementById("whyBox").innerHTML = whyLines.join("<br>");
+
+    // NEW: update left-side occupation requirement evidence
+    renderOccRequirements(p);
   }
 
-  async function checkAPI() {
-    try {
-      const res = await fetch("/api/health");
-      state.apiAvailable = res.ok;
-    } catch { state.apiAvailable = false; }
-    document.getElementById("btnCustom").disabled = !state.apiAvailable;
-    document.getElementById("customHint").textContent = state.apiAvailable
-      ? "API detected. Paste text and click to get top SOCs."
-      : "Custom text recommender is disabled unless you run demo/app.py.";
+  function hydrateApiTextFromSelectedUser(){
+    const uid = state.selectedUser;
+    const ev = state.userEvidence[String(uid)] || {};
+    const text = (ev.user_doc || "").toString().trim();
+    if (text) document.getElementById("apiText").value = text;
   }
 
-  async function customRecommend() {
-    const txt = document.getElementById("customText").value || "";
-    const tbody = document.querySelector("#customRecTable tbody");
+  function renderApiRecs(recs){
+    const tbody = document.querySelector("#apiRecTable tbody");
     tbody.innerHTML = "";
-    if (!txt.trim()) return;
-
-    const res = await fetch("/api/recommend", {
-      method: "POST",
-      headers: {"Content-Type":"application/json"},
-      body: JSON.stringify({ text: txt, topk: 10 })
-    });
-    const data = await res.json();
-    (data.recs || []).forEach(r => {
+    (recs || []).forEach(r => {
+      const code = String(r.soc_code || "");
+      const title = r.soc_title || socTitle(code);
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td class="mono">${r.soc_code}</td><td>${r.soc_title}</td><td>${fmt(r.score)}</td>`;
+      tr.innerHTML = `
+        <td class="mono">${escapeHTML(code)}</td>
+        <td>${escapeHTML(String(title || ""))}</td>
+        <td class="right">${fmt(r.score)}</td>
+      `;
       tbody.appendChild(tr);
     });
   }
 
+  async function runApiRecommend(){
+    const url = document.getElementById("apiUrl").value.trim();
+    const text = document.getElementById("apiText").value.trim();
+    const topk = Math.max(1, Math.min(50, Number(document.getElementById("apiTopk").value) || 8));
+    const status = document.getElementById("apiStatus");
+
+    if (!url) {
+      status.innerHTML = `<span style="color:var(--warn)">Please provide an API URL.</span>`;
+      return;
+    }
+    if (!text) {
+      status.innerHTML = `<span style="color:var(--warn)">Add some profile text before running the API call.</span>`;
+      return;
+    }
+
+    status.innerHTML = `<span class="muted">Calling API…</span>`;
+    try {
+      const res = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text, topk })
+      });
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}`);
+      }
+      const data = await res.json();
+      const recs = Array.isArray(data?.recs) ? data.recs : [];
+      renderApiRecs(recs);
+      status.innerHTML = `<span style="color:var(--ok)">Loaded ${recs.length} recommendation(s) from API.</span>`;
+    } catch (err) {
+      console.error("API recommendation error:", err);
+      status.innerHTML = `<span style="color:var(--bad)">API call failed. Start <span class="mono">app.py</span> and check CORS/URL. Details: ${escapeHTML(String(err))}</span>`;
+      renderApiRecs([]);
+    }
+  }
+
   async function main() {
-    state.metrics = await loadJSON("./data/metrics.json");
-    state.users = await loadJSON("./data/users.json");
-    state.posByUser = await loadJSON("./data/positions_by_user.json");
-    state.recsByUser = await loadJSON("./data/recs_by_user.json");
+    state.metrics = await loadJSON("data/metrics.json");
+    state.users = await loadJSON("data/users.json");
+    state.posByUser = await loadJSON("data/positions_by_user.json");
+    state.recsByUser = await loadJSON("data/recs_by_user.json");
+
+    // NEW: user evidence file
+    state.userEvidence = await loadJSON("data/user_evidence.json");
+
+    // SOC title mapping
+    const socTitles = await loadJSON("data/soc_titles.json");
+    state.socTitleMap = new Map(socTitles.map(x => [String(x.soc_code), String(x.soc_title)]));
+
+    // Load derived weights from metrics
+    if (state.metrics.weights) {
+      const mw = state.metrics.weights;
+      state.w = {
+        tfidf: safeNum(mw.match_score_tfidf_v2, 0.60),
+        edu:   safeNum(mw.edu_match_score, 0.20),
+        exp:   safeNum(mw.exp_match_score, 0.15),
+        train: safeNum(mw.train_match_score, 0.05),
+      };
+      state.weightsMethod = state.metrics.weights_method || "unknown";
+      console.log("Loaded derived weights:", state.w, "method:", state.weightsMethod);
+    }
 
     document.getElementById("m_auc").textContent = `Improvement AUC: ${fmt(state.metrics.improvement_auc)}`;
     document.getElementById("m_mean").textContent = `Mean score: ${fmt(state.metrics.final_score_mean)}`;
@@ -239,13 +600,19 @@
     renderUserSelect();
     renderUser();
 
-    document.getElementById("btnCustom").addEventListener("click", customRecommend);
-    await checkAPI();
+    document.getElementById("apiUseSelected").addEventListener("click", hydrateApiTextFromSelectedUser);
+    document.getElementById("apiRunBtn").addEventListener("click", runApiRecommend);
+    hydrateApiTextFromSelectedUser();
   }
 
   main().catch(err => {
-    console.error(err);
-    alert("Failed to load demo data. Make sure you're serving this folder via a local web server.");
+    console.error("Demo init error:", err);
+    document.body.insertAdjacentHTML(
+      "afterbegin",
+      `<div style="background:#3b1d1d;color:#ffd7d7;padding:10px;font-family:system-ui">
+        Demo error: ${String(err)}
+      </div>`
+    );
   });
 </script>
 </body>

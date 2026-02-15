@@ -1,1714 +1,4438 @@
 [
   {
     "soc_code": "11-1011.00",
-    "soc_title": "11-1011.00"
+    "soc_title": "Chief Executives"
+  },
+  {
+    "soc_code": "11-1011.03",
+    "soc_title": "Chief Sustainability Officers"
   },
   {
     "soc_code": "11-1021.00",
-    "soc_title": "11-1021.00"
+    "soc_title": "General and Operations Managers"
   },
   {
     "soc_code": "11-1031.00",
-    "soc_title": "11-1031.00"
+    "soc_title": "Legislators"
   },
   {
     "soc_code": "11-2011.00",
-    "soc_title": "11-2011.00"
+    "soc_title": "Advertising and Promotions Managers"
   },
   {
     "soc_code": "11-2011.01",
-    "soc_title": "11-2011.01"
+    "soc_title": "Green Marketers"
   },
   {
     "soc_code": "11-2021.00",
-    "soc_title": "11-2021.00"
+    "soc_title": "Marketing Managers"
   },
   {
     "soc_code": "11-2022.00",
-    "soc_title": "11-2022.00"
+    "soc_title": "Sales Managers"
   },
   {
     "soc_code": "11-2031.00",
-    "soc_title": "11-2031.00"
+    "soc_title": "Public Relations and Fundraising Managers"
   },
   {
     "soc_code": "11-3011.00",
-    "soc_title": "11-3011.00"
+    "soc_title": "Administrative Services Managers"
   },
   {
     "soc_code": "11-3021.00",
-    "soc_title": "11-3021.00"
+    "soc_title": "Computer and Information Systems Managers"
   },
   {
     "soc_code": "11-3031.00",
-    "soc_title": "11-3031.00"
+    "soc_title": "Financial Managers"
   },
   {
     "soc_code": "11-3031.01",
-    "soc_title": "11-3031.01"
+    "soc_title": "Treasurers and Controllers"
   },
   {
     "soc_code": "11-3031.02",
-    "soc_title": "11-3031.02"
+    "soc_title": "Financial Managers, Branch or Department"
   },
   {
     "soc_code": "11-3051.00",
-    "soc_title": "11-3051.00"
+    "soc_title": "Industrial Production Managers"
   },
   {
     "soc_code": "11-3051.01",
-    "soc_title": "11-3051.01"
+    "soc_title": "Quality Control Systems Managers"
   },
   {
     "soc_code": "11-3051.02",
-    "soc_title": "11-3051.02"
+    "soc_title": "Geothermal Production Managers"
   },
   {
     "soc_code": "11-3051.03",
-    "soc_title": "11-3051.03"
+    "soc_title": "Biofuels Production Managers"
   },
   {
     "soc_code": "11-3051.04",
-    "soc_title": "11-3051.04"
+    "soc_title": "Biomass Power Plant Managers"
+  },
+  {
+    "soc_code": "11-3051.05",
+    "soc_title": "Methane/Landfill Gas Collection System Operators"
   },
   {
     "soc_code": "11-3051.06",
-    "soc_title": "11-3051.06"
+    "soc_title": "Hydroelectric Production Managers"
   },
   {
     "soc_code": "11-3061.00",
-    "soc_title": "11-3061.00"
+    "soc_title": "Purchasing Managers"
   },
   {
     "soc_code": "11-3071.00",
-    "soc_title": "11-3071.00"
+    "soc_title": "Transportation, Storage, and Distribution Managers"
   },
   {
     "soc_code": "11-3071.01",
-    "soc_title": "11-3071.01"
+    "soc_title": "Transportation Managers"
   },
   {
     "soc_code": "11-3071.02",
-    "soc_title": "11-3071.02"
+    "soc_title": "Storage and Distribution Managers"
   },
   {
     "soc_code": "11-3071.03",
-    "soc_title": "11-3071.03"
+    "soc_title": "Logistics Managers"
   },
   {
     "soc_code": "11-3111.00",
-    "soc_title": "11-3111.00"
+    "soc_title": "Compensation and Benefits Managers"
   },
   {
     "soc_code": "11-3121.00",
-    "soc_title": "11-3121.00"
+    "soc_title": "Human Resources Managers"
   },
   {
     "soc_code": "11-3131.00",
-    "soc_title": "11-3131.00"
+    "soc_title": "Training and Development Managers"
   },
   {
     "soc_code": "11-9013.01",
-    "soc_title": "11-9013.01"
+    "soc_title": "Nursery and Greenhouse Managers"
+  },
+  {
+    "soc_code": "11-9013.02",
+    "soc_title": "Farm and Ranch Managers"
   },
   {
     "soc_code": "11-9013.03",
-    "soc_title": "11-9013.03"
+    "soc_title": "Aquacultural Managers"
   },
   {
     "soc_code": "11-9021.00",
-    "soc_title": "11-9021.00"
+    "soc_title": "Construction Managers"
   },
   {
     "soc_code": "11-9031.00",
-    "soc_title": "11-9031.00"
+    "soc_title": "Education Administrators, Preschool and Childcare Center/Program"
   },
   {
     "soc_code": "11-9032.00",
-    "soc_title": "11-9032.00"
+    "soc_title": "Education Administrators, Elementary and Secondary School"
   },
   {
     "soc_code": "11-9033.00",
-    "soc_title": "11-9033.00"
+    "soc_title": "Education Administrators, Postsecondary"
   },
   {
     "soc_code": "11-9039.00",
-    "soc_title": "11-9039.00"
+    "soc_title": "Education Administrators, All Other"
+  },
+  {
+    "soc_code": "11-9039.01",
+    "soc_title": "Distance Learning Coordinators"
   },
   {
     "soc_code": "11-9039.02",
-    "soc_title": "11-9039.02"
+    "soc_title": "Fitness and Wellness Coordinators"
   },
   {
     "soc_code": "11-9041.00",
-    "soc_title": "11-9041.00"
+    "soc_title": "Architectural and Engineering Managers"
   },
   {
     "soc_code": "11-9041.01",
-    "soc_title": "11-9041.01"
+    "soc_title": "Biofuels/Biodiesel Technology and Product Development Managers"
   },
   {
     "soc_code": "11-9051.00",
-    "soc_title": "11-9051.00"
+    "soc_title": "Food Service Managers"
   },
   {
     "soc_code": "11-9061.00",
-    "soc_title": "11-9061.00"
+    "soc_title": "Funeral Service Managers"
   },
   {
     "soc_code": "11-9071.00",
-    "soc_title": "11-9071.00"
+    "soc_title": "Gaming Managers"
   },
   {
     "soc_code": "11-9081.00",
-    "soc_title": "11-9081.00"
+    "soc_title": "Lodging Managers"
   },
   {
     "soc_code": "11-9111.00",
-    "soc_title": "11-9111.00"
+    "soc_title": "Medical and Health Services Managers"
   },
   {
     "soc_code": "11-9121.00",
-    "soc_title": "11-9121.00"
+    "soc_title": "Natural Sciences Managers"
   },
   {
     "soc_code": "11-9121.01",
-    "soc_title": "11-9121.01"
+    "soc_title": "Clinical Research Coordinators"
   },
   {
     "soc_code": "11-9121.02",
-    "soc_title": "11-9121.02"
+    "soc_title": "Water Resource Specialists"
+  },
+  {
+    "soc_code": "11-9131.00",
+    "soc_title": "Postmasters and Mail Superintendents"
   },
   {
     "soc_code": "11-9141.00",
-    "soc_title": "11-9141.00"
+    "soc_title": "Property, Real Estate, and Community Association Managers"
+  },
+  {
+    "soc_code": "11-9151.00",
+    "soc_title": "Social and Community Service Managers"
+  },
+  {
+    "soc_code": "11-9161.00",
+    "soc_title": "Emergency Management Directors"
   },
   {
     "soc_code": "11-9199.00",
-    "soc_title": "11-9199.00"
+    "soc_title": "Managers, All Other"
+  },
+  {
+    "soc_code": "11-9199.01",
+    "soc_title": "Regulatory Affairs Managers"
   },
   {
     "soc_code": "11-9199.02",
-    "soc_title": "11-9199.02"
+    "soc_title": "Compliance Managers"
+  },
+  {
+    "soc_code": "11-9199.03",
+    "soc_title": "Investment Fund Managers"
   },
   {
     "soc_code": "11-9199.04",
-    "soc_title": "11-9199.04"
+    "soc_title": "Supply Chain Managers"
   },
   {
     "soc_code": "11-9199.07",
-    "soc_title": "11-9199.07"
+    "soc_title": "Security Managers"
   },
   {
     "soc_code": "11-9199.08",
-    "soc_title": "11-9199.08"
+    "soc_title": "Loss Prevention Managers"
+  },
+  {
+    "soc_code": "11-9199.09",
+    "soc_title": "Wind Energy Operations Managers"
+  },
+  {
+    "soc_code": "11-9199.10",
+    "soc_title": "Wind Energy Project Managers"
   },
   {
     "soc_code": "11-9199.11",
-    "soc_title": "11-9199.11"
+    "soc_title": "Brownfield Redevelopment Specialists and Site Managers"
   },
   {
     "soc_code": "13-1011.00",
-    "soc_title": "13-1011.00"
+    "soc_title": "Agents and Business Managers of Artists, Performers, and Athletes"
   },
   {
     "soc_code": "13-1021.00",
-    "soc_title": "13-1021.00"
+    "soc_title": "Buyers and Purchasing Agents, Farm Products"
   },
   {
     "soc_code": "13-1022.00",
-    "soc_title": "13-1022.00"
+    "soc_title": "Wholesale and Retail Buyers, Except Farm Products"
   },
   {
     "soc_code": "13-1023.00",
-    "soc_title": "13-1023.00"
+    "soc_title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products"
+  },
+  {
+    "soc_code": "13-1031.00",
+    "soc_title": "Claims Adjusters, Examiners, and Investigators"
+  },
+  {
+    "soc_code": "13-1031.01",
+    "soc_title": "Claims Examiners, Property and Casualty Insurance"
   },
   {
     "soc_code": "13-1031.02",
-    "soc_title": "13-1031.02"
+    "soc_title": "Insurance Adjusters, Examiners, and Investigators"
   },
   {
     "soc_code": "13-1032.00",
-    "soc_title": "13-1032.00"
+    "soc_title": "Insurance Appraisers, Auto Damage"
+  },
+  {
+    "soc_code": "13-1041.00",
+    "soc_title": "Compliance Officers"
   },
   {
     "soc_code": "13-1041.01",
-    "soc_title": "13-1041.01"
+    "soc_title": "Environmental Compliance Inspectors"
   },
   {
     "soc_code": "13-1041.02",
-    "soc_title": "13-1041.02"
+    "soc_title": "Licensing Examiners and Inspectors"
+  },
+  {
+    "soc_code": "13-1041.03",
+    "soc_title": "Equal Opportunity Representatives and Officers"
   },
   {
     "soc_code": "13-1041.04",
-    "soc_title": "13-1041.04"
+    "soc_title": "Government Property Inspectors and Investigators"
+  },
+  {
+    "soc_code": "13-1041.06",
+    "soc_title": "Coroners"
+  },
+  {
+    "soc_code": "13-1041.07",
+    "soc_title": "Regulatory Affairs Specialists"
   },
   {
     "soc_code": "13-1051.00",
-    "soc_title": "13-1051.00"
+    "soc_title": "Cost Estimators"
   },
   {
     "soc_code": "13-1071.00",
-    "soc_title": "13-1071.00"
+    "soc_title": "Human Resources Specialists"
+  },
+  {
+    "soc_code": "13-1074.00",
+    "soc_title": "Farm Labor Contractors"
   },
   {
     "soc_code": "13-1075.00",
-    "soc_title": "13-1075.00"
+    "soc_title": "Labor Relations Specialists"
   },
   {
     "soc_code": "13-1081.00",
-    "soc_title": "13-1081.00"
+    "soc_title": "Logisticians"
   },
   {
     "soc_code": "13-1081.01",
-    "soc_title": "13-1081.01"
+    "soc_title": "Logistics Engineers"
   },
   {
     "soc_code": "13-1081.02",
-    "soc_title": "13-1081.02"
+    "soc_title": "Logistics Analysts"
   },
   {
     "soc_code": "13-1111.00",
-    "soc_title": "13-1111.00"
+    "soc_title": "Management Analysts"
   },
   {
     "soc_code": "13-1121.00",
-    "soc_title": "13-1121.00"
+    "soc_title": "Meeting, Convention, and Event Planners"
+  },
+  {
+    "soc_code": "13-1131.00",
+    "soc_title": "Fundraisers"
   },
   {
     "soc_code": "13-1141.00",
-    "soc_title": "13-1141.00"
+    "soc_title": "Compensation, Benefits, and Job Analysis Specialists"
   },
   {
     "soc_code": "13-1151.00",
-    "soc_title": "13-1151.00"
+    "soc_title": "Training and Development Specialists"
   },
   {
     "soc_code": "13-1161.00",
-    "soc_title": "13-1161.00"
+    "soc_title": "Market Research Analysts and Marketing Specialists"
   },
   {
     "soc_code": "13-1199.00",
-    "soc_title": "13-1199.00"
+    "soc_title": "Business Operations Specialists, All Other"
   },
   {
     "soc_code": "13-1199.01",
-    "soc_title": "13-1199.01"
+    "soc_title": "Energy Auditors"
   },
   {
     "soc_code": "13-1199.02",
-    "soc_title": "13-1199.02"
+    "soc_title": "Security Management Specialists"
+  },
+  {
+    "soc_code": "13-1199.03",
+    "soc_title": "Customs Brokers"
+  },
+  {
+    "soc_code": "13-1199.04",
+    "soc_title": "Business Continuity Planners"
+  },
+  {
+    "soc_code": "13-1199.05",
+    "soc_title": "Sustainability Specialists"
   },
   {
     "soc_code": "13-1199.06",
-    "soc_title": "13-1199.06"
+    "soc_title": "Online Merchants"
   },
   {
     "soc_code": "13-2011.00",
-    "soc_title": "13-2011.00"
+    "soc_title": "Accountants and Auditors"
   },
   {
     "soc_code": "13-2011.01",
-    "soc_title": "13-2011.01"
+    "soc_title": "Accountants"
   },
   {
     "soc_code": "13-2011.02",
-    "soc_title": "13-2011.02"
+    "soc_title": "Auditors"
   },
   {
     "soc_code": "13-2021.00",
-    "soc_title": "13-2021.00"
+    "soc_title": "Appraisers and Assessors of Real Estate"
+  },
+  {
+    "soc_code": "13-2021.01",
+    "soc_title": "Assessors"
+  },
+  {
+    "soc_code": "13-2021.02",
+    "soc_title": "Appraisers, Real Estate"
   },
   {
     "soc_code": "13-2031.00",
-    "soc_title": "13-2031.00"
+    "soc_title": "Budget Analysts"
   },
   {
     "soc_code": "13-2041.00",
-    "soc_title": "13-2041.00"
+    "soc_title": "Credit Analysts"
   },
   {
     "soc_code": "13-2051.00",
-    "soc_title": "13-2051.00"
+    "soc_title": "Financial Analysts"
   },
   {
     "soc_code": "13-2052.00",
-    "soc_title": "13-2052.00"
+    "soc_title": "Personal Financial Advisors"
   },
   {
     "soc_code": "13-2053.00",
-    "soc_title": "13-2053.00"
+    "soc_title": "Insurance Underwriters"
   },
   {
     "soc_code": "13-2061.00",
-    "soc_title": "13-2061.00"
+    "soc_title": "Financial Examiners"
   },
   {
     "soc_code": "13-2071.00",
-    "soc_title": "13-2071.00"
+    "soc_title": "Credit Counselors"
   },
   {
     "soc_code": "13-2071.01",
-    "soc_title": "13-2071.01"
+    "soc_title": "Loan Counselors"
   },
   {
     "soc_code": "13-2072.00",
-    "soc_title": "13-2072.00"
+    "soc_title": "Loan Officers"
   },
   {
     "soc_code": "13-2081.00",
-    "soc_title": "13-2081.00"
+    "soc_title": "Tax Examiners and Collectors, and Revenue Agents"
+  },
+  {
+    "soc_code": "13-2082.00",
+    "soc_title": "Tax Preparers"
+  },
+  {
+    "soc_code": "13-2099.00",
+    "soc_title": "Financial Specialists, All Other"
   },
   {
     "soc_code": "13-2099.01",
-    "soc_title": "13-2099.01"
+    "soc_title": "Financial Quantitative Analysts"
+  },
+  {
+    "soc_code": "13-2099.02",
+    "soc_title": "Risk Management Specialists"
   },
   {
     "soc_code": "13-2099.03",
-    "soc_title": "13-2099.03"
+    "soc_title": "Investment Underwriters"
   },
   {
     "soc_code": "13-2099.04",
-    "soc_title": "13-2099.04"
+    "soc_title": "Fraud Examiners, Investigators and Analysts"
   },
   {
     "soc_code": "15-1111.00",
-    "soc_title": "15-1111.00"
+    "soc_title": "Computer and Information Research Scientists"
   },
   {
     "soc_code": "15-1121.00",
-    "soc_title": "15-1121.00"
+    "soc_title": "Computer Systems Analysts"
+  },
+  {
+    "soc_code": "15-1121.01",
+    "soc_title": "Informatics Nurse Specialists"
   },
   {
     "soc_code": "15-1122.00",
-    "soc_title": "15-1122.00"
+    "soc_title": "Information Security Analysts"
   },
   {
     "soc_code": "15-1131.00",
-    "soc_title": "15-1131.00"
+    "soc_title": "Computer Programmers"
   },
   {
     "soc_code": "15-1132.00",
-    "soc_title": "15-1132.00"
+    "soc_title": "Software Developers, Applications"
   },
   {
     "soc_code": "15-1133.00",
-    "soc_title": "15-1133.00"
+    "soc_title": "Software Developers, Systems Software"
   },
   {
     "soc_code": "15-1134.00",
-    "soc_title": "15-1134.00"
+    "soc_title": "Web Developers"
   },
   {
     "soc_code": "15-1141.00",
-    "soc_title": "15-1141.00"
+    "soc_title": "Database Administrators"
   },
   {
     "soc_code": "15-1142.00",
-    "soc_title": "15-1142.00"
+    "soc_title": "Network and Computer Systems Administrators"
   },
   {
     "soc_code": "15-1143.00",
-    "soc_title": "15-1143.00"
+    "soc_title": "Computer Network Architects"
   },
   {
     "soc_code": "15-1143.01",
-    "soc_title": "15-1143.01"
+    "soc_title": "Telecommunications Engineering Specialists"
   },
   {
     "soc_code": "15-1151.00",
-    "soc_title": "15-1151.00"
+    "soc_title": "Computer User Support Specialists"
   },
   {
     "soc_code": "15-1152.00",
-    "soc_title": "15-1152.00"
+    "soc_title": "Computer Network Support Specialists"
   },
   {
     "soc_code": "15-1199.00",
-    "soc_title": "15-1199.00"
+    "soc_title": "Computer Occupations, All Other"
   },
   {
     "soc_code": "15-1199.01",
-    "soc_title": "15-1199.01"
+    "soc_title": "Software Quality Assurance Engineers and Testers"
   },
   {
     "soc_code": "15-1199.02",
-    "soc_title": "15-1199.02"
+    "soc_title": "Computer Systems Engineers/Architects"
   },
   {
     "soc_code": "15-1199.03",
-    "soc_title": "15-1199.03"
+    "soc_title": "Web Administrators"
   },
   {
     "soc_code": "15-1199.04",
-    "soc_title": "15-1199.04"
+    "soc_title": "Geospatial Information Scientists and Technologists"
+  },
+  {
+    "soc_code": "15-1199.05",
+    "soc_title": "Geographic Information Systems Technicians"
   },
   {
     "soc_code": "15-1199.06",
-    "soc_title": "15-1199.06"
+    "soc_title": "Database Architects"
+  },
+  {
+    "soc_code": "15-1199.07",
+    "soc_title": "Data Warehousing Specialists"
   },
   {
     "soc_code": "15-1199.08",
-    "soc_title": "15-1199.08"
+    "soc_title": "Business Intelligence Analysts"
   },
   {
     "soc_code": "15-1199.09",
-    "soc_title": "15-1199.09"
+    "soc_title": "Information Technology Project Managers"
   },
   {
     "soc_code": "15-1199.10",
-    "soc_title": "15-1199.10"
+    "soc_title": "Search Marketing Strategists"
+  },
+  {
+    "soc_code": "15-1199.11",
+    "soc_title": "Video Game Designers"
   },
   {
     "soc_code": "15-1199.12",
-    "soc_title": "15-1199.12"
+    "soc_title": "Document Management Specialists"
   },
   {
     "soc_code": "15-2011.00",
-    "soc_title": "15-2011.00"
+    "soc_title": "Actuaries"
+  },
+  {
+    "soc_code": "15-2021.00",
+    "soc_title": "Mathematicians"
   },
   {
     "soc_code": "15-2031.00",
-    "soc_title": "15-2031.00"
+    "soc_title": "Operations Research Analysts"
   },
   {
     "soc_code": "15-2041.00",
-    "soc_title": "15-2041.00"
+    "soc_title": "Statisticians"
   },
   {
     "soc_code": "15-2041.01",
-    "soc_title": "15-2041.01"
+    "soc_title": "Biostatisticians"
+  },
+  {
+    "soc_code": "15-2041.02",
+    "soc_title": "Clinical Data Managers"
+  },
+  {
+    "soc_code": "15-2091.00",
+    "soc_title": "Mathematical Technicians"
+  },
+  {
+    "soc_code": "15-2099.00",
+    "soc_title": "Mathematical Science Occupations, All Other"
+  },
+  {
+    "soc_code": "17-1011.00",
+    "soc_title": "Architects, Except Landscape and Naval"
+  },
+  {
+    "soc_code": "17-1012.00",
+    "soc_title": "Landscape Architects"
+  },
+  {
+    "soc_code": "17-1021.00",
+    "soc_title": "Cartographers and Photogrammetrists"
+  },
+  {
+    "soc_code": "17-1022.00",
+    "soc_title": "Surveyors"
+  },
+  {
+    "soc_code": "17-1022.01",
+    "soc_title": "Geodetic Surveyors"
   },
   {
     "soc_code": "17-2011.00",
-    "soc_title": "17-2011.00"
+    "soc_title": "Aerospace Engineers"
+  },
+  {
+    "soc_code": "17-2021.00",
+    "soc_title": "Agricultural Engineers"
   },
   {
     "soc_code": "17-2031.00",
-    "soc_title": "17-2031.00"
+    "soc_title": "Biomedical Engineers"
   },
   {
     "soc_code": "17-2041.00",
-    "soc_title": "17-2041.00"
+    "soc_title": "Chemical Engineers"
   },
   {
     "soc_code": "17-2051.00",
-    "soc_title": "17-2051.00"
+    "soc_title": "Civil Engineers"
+  },
+  {
+    "soc_code": "17-2051.01",
+    "soc_title": "Transportation Engineers"
+  },
+  {
+    "soc_code": "17-2061.00",
+    "soc_title": "Computer Hardware Engineers"
   },
   {
     "soc_code": "17-2071.00",
-    "soc_title": "17-2071.00"
+    "soc_title": "Electrical Engineers"
   },
   {
     "soc_code": "17-2072.00",
-    "soc_title": "17-2072.00"
+    "soc_title": "Electronics Engineers, Except Computer"
   },
   {
     "soc_code": "17-2072.01",
-    "soc_title": "17-2072.01"
+    "soc_title": "Radio Frequency Identification Device Specialists"
   },
   {
     "soc_code": "17-2081.00",
-    "soc_title": "17-2081.00"
+    "soc_title": "Environmental Engineers"
+  },
+  {
+    "soc_code": "17-2081.01",
+    "soc_title": "Water/Wastewater Engineers"
+  },
+  {
+    "soc_code": "17-2111.00",
+    "soc_title": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+  },
+  {
+    "soc_code": "17-2111.01",
+    "soc_title": "Industrial Safety and Health Engineers"
+  },
+  {
+    "soc_code": "17-2111.02",
+    "soc_title": "Fire-Prevention and Protection Engineers"
+  },
+  {
+    "soc_code": "17-2111.03",
+    "soc_title": "Product Safety Engineers"
   },
   {
     "soc_code": "17-2112.00",
-    "soc_title": "17-2112.00"
+    "soc_title": "Industrial Engineers"
+  },
+  {
+    "soc_code": "17-2112.01",
+    "soc_title": "Human Factors Engineers and Ergonomists"
+  },
+  {
+    "soc_code": "17-2121.00",
+    "soc_title": "Marine Engineers and Naval Architects"
+  },
+  {
+    "soc_code": "17-2121.01",
+    "soc_title": "Marine Engineers"
+  },
+  {
+    "soc_code": "17-2121.02",
+    "soc_title": "Marine Architects"
   },
   {
     "soc_code": "17-2131.00",
-    "soc_title": "17-2131.00"
+    "soc_title": "Materials Engineers"
   },
   {
     "soc_code": "17-2141.00",
-    "soc_title": "17-2141.00"
+    "soc_title": "Mechanical Engineers"
+  },
+  {
+    "soc_code": "17-2141.01",
+    "soc_title": "Fuel Cell Engineers"
+  },
+  {
+    "soc_code": "17-2141.02",
+    "soc_title": "Automotive Engineers"
+  },
+  {
+    "soc_code": "17-2151.00",
+    "soc_title": "Mining and Geological Engineers, Including Mining Safety Engineers"
   },
   {
     "soc_code": "17-2161.00",
-    "soc_title": "17-2161.00"
+    "soc_title": "Nuclear Engineers"
+  },
+  {
+    "soc_code": "17-2171.00",
+    "soc_title": "Petroleum Engineers"
+  },
+  {
+    "soc_code": "17-2199.00",
+    "soc_title": "Engineers, All Other"
   },
   {
     "soc_code": "17-2199.01",
-    "soc_title": "17-2199.01"
+    "soc_title": "Biochemical Engineers"
   },
   {
     "soc_code": "17-2199.02",
-    "soc_title": "17-2199.02"
+    "soc_title": "Validation Engineers"
+  },
+  {
+    "soc_code": "17-2199.03",
+    "soc_title": "Energy Engineers"
   },
   {
     "soc_code": "17-2199.04",
-    "soc_title": "17-2199.04"
+    "soc_title": "Manufacturing Engineers"
   },
   {
     "soc_code": "17-2199.05",
-    "soc_title": "17-2199.05"
+    "soc_title": "Mechatronics Engineers"
+  },
+  {
+    "soc_code": "17-2199.06",
+    "soc_title": "Microsystems Engineers"
+  },
+  {
+    "soc_code": "17-2199.07",
+    "soc_title": "Photonics Engineers"
+  },
+  {
+    "soc_code": "17-2199.08",
+    "soc_title": "Robotics Engineers"
   },
   {
     "soc_code": "17-2199.09",
-    "soc_title": "17-2199.09"
+    "soc_title": "Nanosystems Engineers"
+  },
+  {
+    "soc_code": "17-2199.10",
+    "soc_title": "Wind Energy Engineers"
+  },
+  {
+    "soc_code": "17-2199.11",
+    "soc_title": "Solar Energy Systems Engineers"
+  },
+  {
+    "soc_code": "17-3011.00",
+    "soc_title": "Architectural and Civil Drafters"
   },
   {
     "soc_code": "17-3011.01",
-    "soc_title": "17-3011.01"
+    "soc_title": "Architectural Drafters"
+  },
+  {
+    "soc_code": "17-3011.02",
+    "soc_title": "Civil Drafters"
+  },
+  {
+    "soc_code": "17-3012.00",
+    "soc_title": "Electrical and Electronics Drafters"
+  },
+  {
+    "soc_code": "17-3012.01",
+    "soc_title": "Electronic Drafters"
   },
   {
     "soc_code": "17-3012.02",
-    "soc_title": "17-3012.02"
+    "soc_title": "Electrical Drafters"
+  },
+  {
+    "soc_code": "17-3013.00",
+    "soc_title": "Mechanical Drafters"
+  },
+  {
+    "soc_code": "17-3019.00",
+    "soc_title": "Drafters, All Other"
+  },
+  {
+    "soc_code": "17-3021.00",
+    "soc_title": "Aerospace Engineering and Operations Technicians"
+  },
+  {
+    "soc_code": "17-3022.00",
+    "soc_title": "Civil Engineering Technicians"
+  },
+  {
+    "soc_code": "17-3023.00",
+    "soc_title": "Electrical and Electronic Engineering Technicians"
   },
   {
     "soc_code": "17-3023.01",
-    "soc_title": "17-3023.01"
+    "soc_title": "Electronics Engineering Technicians"
   },
   {
     "soc_code": "17-3023.03",
-    "soc_title": "17-3023.03"
+    "soc_title": "Electrical Engineering Technicians"
   },
   {
     "soc_code": "17-3024.00",
-    "soc_title": "17-3024.00"
+    "soc_title": "Electro-Mechanical Technicians"
+  },
+  {
+    "soc_code": "17-3024.01",
+    "soc_title": "Robotics Technicians"
+  },
+  {
+    "soc_code": "17-3025.00",
+    "soc_title": "Environmental Engineering Technicians"
   },
   {
     "soc_code": "17-3026.00",
-    "soc_title": "17-3026.00"
+    "soc_title": "Industrial Engineering Technicians"
+  },
+  {
+    "soc_code": "17-3027.00",
+    "soc_title": "Mechanical Engineering Technicians"
+  },
+  {
+    "soc_code": "17-3027.01",
+    "soc_title": "Automotive Engineering Technicians"
   },
   {
     "soc_code": "17-3029.00",
-    "soc_title": "17-3029.00"
+    "soc_title": "Engineering Technicians, Except Drafters, All Other"
+  },
+  {
+    "soc_code": "17-3029.01",
+    "soc_title": "Non-Destructive Testing Specialists"
+  },
+  {
+    "soc_code": "17-3029.02",
+    "soc_title": "Electrical Engineering Technologists"
+  },
+  {
+    "soc_code": "17-3029.03",
+    "soc_title": "Electromechanical Engineering Technologists"
+  },
+  {
+    "soc_code": "17-3029.04",
+    "soc_title": "Electronics Engineering Technologists"
+  },
+  {
+    "soc_code": "17-3029.05",
+    "soc_title": "Industrial Engineering Technologists"
+  },
+  {
+    "soc_code": "17-3029.06",
+    "soc_title": "Manufacturing Engineering Technologists"
   },
   {
     "soc_code": "17-3029.07",
-    "soc_title": "17-3029.07"
+    "soc_title": "Mechanical Engineering Technologists"
+  },
+  {
+    "soc_code": "17-3029.08",
+    "soc_title": "Photonics Technicians"
   },
   {
     "soc_code": "17-3029.09",
-    "soc_title": "17-3029.09"
+    "soc_title": "Manufacturing Production Technicians"
+  },
+  {
+    "soc_code": "17-3029.10",
+    "soc_title": "Fuel Cell Technicians"
+  },
+  {
+    "soc_code": "17-3029.11",
+    "soc_title": "Nanotechnology Engineering Technologists"
   },
   {
     "soc_code": "17-3029.12",
-    "soc_title": "17-3029.12"
+    "soc_title": "Nanotechnology Engineering Technicians"
+  },
+  {
+    "soc_code": "17-3031.00",
+    "soc_title": "Surveying and Mapping Technicians"
+  },
+  {
+    "soc_code": "17-3031.01",
+    "soc_title": "Surveying Technicians"
+  },
+  {
+    "soc_code": "17-3031.02",
+    "soc_title": "Mapping Technicians"
+  },
+  {
+    "soc_code": "19-1011.00",
+    "soc_title": "Animal Scientists"
   },
   {
     "soc_code": "19-1012.00",
-    "soc_title": "19-1012.00"
+    "soc_title": "Food Scientists and Technologists"
   },
   {
     "soc_code": "19-1013.00",
-    "soc_title": "19-1013.00"
+    "soc_title": "Soil and Plant Scientists"
   },
   {
     "soc_code": "19-1020.01",
-    "soc_title": "19-1020.01"
+    "soc_title": "Biologists"
+  },
+  {
+    "soc_code": "19-1021.00",
+    "soc_title": "Biochemists and Biophysicists"
   },
   {
     "soc_code": "19-1022.00",
-    "soc_title": "19-1022.00"
+    "soc_title": "Microbiologists"
+  },
+  {
+    "soc_code": "19-1023.00",
+    "soc_title": "Zoologists and Wildlife Biologists"
+  },
+  {
+    "soc_code": "19-1029.00",
+    "soc_title": "Biological Scientists, All Other"
   },
   {
     "soc_code": "19-1029.01",
-    "soc_title": "19-1029.01"
+    "soc_title": "Bioinformatics Scientists"
+  },
+  {
+    "soc_code": "19-1029.02",
+    "soc_title": "Molecular and Cellular Biologists"
+  },
+  {
+    "soc_code": "19-1029.03",
+    "soc_title": "Geneticists"
+  },
+  {
+    "soc_code": "19-1031.00",
+    "soc_title": "Conservation Scientists"
   },
   {
     "soc_code": "19-1031.01",
-    "soc_title": "19-1031.01"
+    "soc_title": "Soil and Water Conservationists"
+  },
+  {
+    "soc_code": "19-1031.02",
+    "soc_title": "Range Managers"
+  },
+  {
+    "soc_code": "19-1031.03",
+    "soc_title": "Park Naturalists"
   },
   {
     "soc_code": "19-1032.00",
-    "soc_title": "19-1032.00"
+    "soc_title": "Foresters"
+  },
+  {
+    "soc_code": "19-1041.00",
+    "soc_title": "Epidemiologists"
   },
   {
     "soc_code": "19-1042.00",
-    "soc_title": "19-1042.00"
+    "soc_title": "Medical Scientists, Except Epidemiologists"
+  },
+  {
+    "soc_code": "19-1099.00",
+    "soc_title": "Life Scientists, All Other"
+  },
+  {
+    "soc_code": "19-2011.00",
+    "soc_title": "Astronomers"
   },
   {
     "soc_code": "19-2012.00",
-    "soc_title": "19-2012.00"
+    "soc_title": "Physicists"
+  },
+  {
+    "soc_code": "19-2021.00",
+    "soc_title": "Atmospheric and Space Scientists"
   },
   {
     "soc_code": "19-2031.00",
-    "soc_title": "19-2031.00"
+    "soc_title": "Chemists"
   },
   {
     "soc_code": "19-2032.00",
-    "soc_title": "19-2032.00"
+    "soc_title": "Materials Scientists"
+  },
+  {
+    "soc_code": "19-2041.00",
+    "soc_title": "Environmental Scientists and Specialists, Including Health"
   },
   {
     "soc_code": "19-2041.01",
-    "soc_title": "19-2041.01"
+    "soc_title": "Climate Change Analysts"
   },
   {
     "soc_code": "19-2041.02",
-    "soc_title": "19-2041.02"
+    "soc_title": "Environmental Restoration Planners"
+  },
+  {
+    "soc_code": "19-2041.03",
+    "soc_title": "Industrial Ecologists"
+  },
+  {
+    "soc_code": "19-2042.00",
+    "soc_title": "Geoscientists, Except Hydrologists and Geographers"
+  },
+  {
+    "soc_code": "19-2043.00",
+    "soc_title": "Hydrologists"
+  },
+  {
+    "soc_code": "19-2099.00",
+    "soc_title": "Physical Scientists, All Other"
+  },
+  {
+    "soc_code": "19-2099.01",
+    "soc_title": "Remote Sensing Scientists and Technologists"
+  },
+  {
+    "soc_code": "19-3011.00",
+    "soc_title": "Economists"
+  },
+  {
+    "soc_code": "19-3011.01",
+    "soc_title": "Environmental Economists"
   },
   {
     "soc_code": "19-3022.00",
-    "soc_title": "19-3022.00"
+    "soc_title": "Survey Researchers"
+  },
+  {
+    "soc_code": "19-3031.00",
+    "soc_title": "Clinical, Counseling, and School Psychologists"
+  },
+  {
+    "soc_code": "19-3031.01",
+    "soc_title": "School Psychologists"
   },
   {
     "soc_code": "19-3031.02",
-    "soc_title": "19-3031.02"
+    "soc_title": "Clinical Psychologists"
+  },
+  {
+    "soc_code": "19-3031.03",
+    "soc_title": "Counseling Psychologists"
+  },
+  {
+    "soc_code": "19-3032.00",
+    "soc_title": "Industrial-Organizational Psychologists"
+  },
+  {
+    "soc_code": "19-3039.00",
+    "soc_title": "Psychologists, All Other"
+  },
+  {
+    "soc_code": "19-3039.01",
+    "soc_title": "Neuropsychologists and Clinical Neuropsychologists"
+  },
+  {
+    "soc_code": "19-3041.00",
+    "soc_title": "Sociologists"
+  },
+  {
+    "soc_code": "19-3051.00",
+    "soc_title": "Urban and Regional Planners"
+  },
+  {
+    "soc_code": "19-3091.00",
+    "soc_title": "Anthropologists and Archeologists"
+  },
+  {
+    "soc_code": "19-3091.01",
+    "soc_title": "Anthropologists"
+  },
+  {
+    "soc_code": "19-3091.02",
+    "soc_title": "Archeologists"
+  },
+  {
+    "soc_code": "19-3092.00",
+    "soc_title": "Geographers"
   },
   {
     "soc_code": "19-3093.00",
-    "soc_title": "19-3093.00"
+    "soc_title": "Historians"
+  },
+  {
+    "soc_code": "19-3094.00",
+    "soc_title": "Political Scientists"
+  },
+  {
+    "soc_code": "19-3099.00",
+    "soc_title": "Social Scientists and Related Workers, All Other"
+  },
+  {
+    "soc_code": "19-3099.01",
+    "soc_title": "Transportation Planners"
+  },
+  {
+    "soc_code": "19-4011.00",
+    "soc_title": "Agricultural and Food Science Technicians"
+  },
+  {
+    "soc_code": "19-4011.01",
+    "soc_title": "Agricultural Technicians"
   },
   {
     "soc_code": "19-4011.02",
-    "soc_title": "19-4011.02"
+    "soc_title": "Food Science Technicians"
+  },
+  {
+    "soc_code": "19-4021.00",
+    "soc_title": "Biological Technicians"
   },
   {
     "soc_code": "19-4031.00",
-    "soc_title": "19-4031.00"
+    "soc_title": "Chemical Technicians"
+  },
+  {
+    "soc_code": "19-4041.00",
+    "soc_title": "Geological and Petroleum Technicians"
+  },
+  {
+    "soc_code": "19-4041.01",
+    "soc_title": "Geophysical Data Technicians"
   },
   {
     "soc_code": "19-4041.02",
-    "soc_title": "19-4041.02"
+    "soc_title": "Geological Sample Test Technicians"
+  },
+  {
+    "soc_code": "19-4051.00",
+    "soc_title": "Nuclear Technicians"
+  },
+  {
+    "soc_code": "19-4051.01",
+    "soc_title": "Nuclear Equipment Operation Technicians"
   },
   {
     "soc_code": "19-4051.02",
-    "soc_title": "19-4051.02"
+    "soc_title": "Nuclear Monitoring Technicians"
   },
   {
     "soc_code": "19-4061.00",
-    "soc_title": "19-4061.00"
+    "soc_title": "Social Science Research Assistants"
   },
   {
     "soc_code": "19-4061.01",
-    "soc_title": "19-4061.01"
+    "soc_title": "City and Regional Planning Aides"
   },
   {
     "soc_code": "19-4091.00",
-    "soc_title": "19-4091.00"
+    "soc_title": "Environmental Science and Protection Technicians, Including Health"
   },
   {
     "soc_code": "19-4092.00",
-    "soc_title": "19-4092.00"
+    "soc_title": "Forensic Science Technicians"
+  },
+  {
+    "soc_code": "19-4093.00",
+    "soc_title": "Forest and Conservation Technicians"
   },
   {
     "soc_code": "19-4099.00",
-    "soc_title": "19-4099.00"
+    "soc_title": "Life, Physical, and Social Science Technicians, All Other"
   },
   {
     "soc_code": "19-4099.01",
-    "soc_title": "19-4099.01"
+    "soc_title": "Quality Control Analysts"
+  },
+  {
+    "soc_code": "19-4099.02",
+    "soc_title": "Precision Agriculture Technicians"
+  },
+  {
+    "soc_code": "19-4099.03",
+    "soc_title": "Remote Sensing Technicians"
   },
   {
     "soc_code": "21-1011.00",
-    "soc_title": "21-1011.00"
+    "soc_title": "Substance Abuse and Behavioral Disorder Counselors"
   },
   {
     "soc_code": "21-1012.00",
-    "soc_title": "21-1012.00"
+    "soc_title": "Educational, Guidance, School, and Vocational Counselors"
+  },
+  {
+    "soc_code": "21-1013.00",
+    "soc_title": "Marriage and Family Therapists"
+  },
+  {
+    "soc_code": "21-1014.00",
+    "soc_title": "Mental Health Counselors"
   },
   {
     "soc_code": "21-1015.00",
-    "soc_title": "21-1015.00"
+    "soc_title": "Rehabilitation Counselors"
   },
   {
     "soc_code": "21-1019.00",
-    "soc_title": "21-1019.00"
+    "soc_title": "Counselors, All Other"
   },
   {
     "soc_code": "21-1021.00",
-    "soc_title": "21-1021.00"
+    "soc_title": "Child, Family, and School Social Workers"
   },
   {
     "soc_code": "21-1022.00",
-    "soc_title": "21-1022.00"
+    "soc_title": "Healthcare Social Workers"
+  },
+  {
+    "soc_code": "21-1023.00",
+    "soc_title": "Mental Health and Substance Abuse Social Workers"
   },
   {
     "soc_code": "21-1029.00",
-    "soc_title": "21-1029.00"
+    "soc_title": "Social Workers, All Other"
   },
   {
     "soc_code": "21-1091.00",
-    "soc_title": "21-1091.00"
+    "soc_title": "Health Educators"
+  },
+  {
+    "soc_code": "21-1092.00",
+    "soc_title": "Probation Officers and Correctional Treatment Specialists"
   },
   {
     "soc_code": "21-1093.00",
-    "soc_title": "21-1093.00"
+    "soc_title": "Social and Human Service Assistants"
+  },
+  {
+    "soc_code": "21-1094.00",
+    "soc_title": "Community Health Workers"
+  },
+  {
+    "soc_code": "21-1099.00",
+    "soc_title": "Community and Social Service Specialists, All Other"
+  },
+  {
+    "soc_code": "21-2011.00",
+    "soc_title": "Clergy"
+  },
+  {
+    "soc_code": "21-2021.00",
+    "soc_title": "Directors, Religious Activities and Education"
+  },
+  {
+    "soc_code": "21-2099.00",
+    "soc_title": "Religious Workers, All Other"
   },
   {
     "soc_code": "23-1011.00",
-    "soc_title": "23-1011.00"
+    "soc_title": "Lawyers"
+  },
+  {
+    "soc_code": "23-1012.00",
+    "soc_title": "Judicial Law Clerks"
+  },
+  {
+    "soc_code": "23-1021.00",
+    "soc_title": "Administrative Law Judges, Adjudicators, and Hearing Officers"
   },
   {
     "soc_code": "23-1022.00",
-    "soc_title": "23-1022.00"
+    "soc_title": "Arbitrators, Mediators, and Conciliators"
+  },
+  {
+    "soc_code": "23-1023.00",
+    "soc_title": "Judges, Magistrate Judges, and Magistrates"
   },
   {
     "soc_code": "23-2011.00",
-    "soc_title": "23-2011.00"
+    "soc_title": "Paralegals and Legal Assistants"
   },
   {
     "soc_code": "23-2091.00",
-    "soc_title": "23-2091.00"
+    "soc_title": "Court Reporters"
+  },
+  {
+    "soc_code": "23-2093.00",
+    "soc_title": "Title Examiners, Abstractors, and Searchers"
+  },
+  {
+    "soc_code": "23-2099.00",
+    "soc_title": "Legal Support Workers, All Other"
   },
   {
     "soc_code": "25-1011.00",
-    "soc_title": "25-1011.00"
+    "soc_title": "Business Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1021.00",
-    "soc_title": "25-1021.00"
+    "soc_title": "Computer Science Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1022.00",
-    "soc_title": "25-1022.00"
+    "soc_title": "Mathematical Science Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1031.00",
+    "soc_title": "Architecture Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1032.00",
+    "soc_title": "Engineering Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1041.00",
+    "soc_title": "Agricultural Sciences Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1042.00",
+    "soc_title": "Biological Science Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1043.00",
+    "soc_title": "Forestry and Conservation Science Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1051.00",
-    "soc_title": "25-1051.00"
+    "soc_title": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1052.00",
+    "soc_title": "Chemistry Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1053.00",
+    "soc_title": "Environmental Science Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1054.00",
+    "soc_title": "Physics Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1061.00",
+    "soc_title": "Anthropology and Archeology Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1062.00",
+    "soc_title": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1063.00",
+    "soc_title": "Economics Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1064.00",
+    "soc_title": "Geography Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1065.00",
+    "soc_title": "Political Science Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1066.00",
+    "soc_title": "Psychology Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1067.00",
+    "soc_title": "Sociology Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1069.00",
+    "soc_title": "Social Sciences Teachers, Postsecondary, All Other"
+  },
+  {
+    "soc_code": "25-1071.00",
+    "soc_title": "Health Specialties Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1072.00",
+    "soc_title": "Nursing Instructors and Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1081.00",
-    "soc_title": "25-1081.00"
+    "soc_title": "Education Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1082.00",
+    "soc_title": "Library Science Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1111.00",
+    "soc_title": "Criminal Justice and Law Enforcement Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1112.00",
+    "soc_title": "Law Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1113.00",
+    "soc_title": "Social Work Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1121.00",
+    "soc_title": "Art, Drama, and Music Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1122.00",
-    "soc_title": "25-1122.00"
+    "soc_title": "Communications Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1123.00",
-    "soc_title": "25-1123.00"
+    "soc_title": "English Language and Literature Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1124.00",
+    "soc_title": "Foreign Language and Literature Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1125.00",
+    "soc_title": "History Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1126.00",
+    "soc_title": "Philosophy and Religion Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1191.00",
-    "soc_title": "25-1191.00"
+    "soc_title": "Graduate Teaching Assistants"
+  },
+  {
+    "soc_code": "25-1192.00",
+    "soc_title": "Home Economics Teachers, Postsecondary"
   },
   {
     "soc_code": "25-1193.00",
-    "soc_title": "25-1193.00"
+    "soc_title": "Recreation and Fitness Studies Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1194.00",
+    "soc_title": "Vocational Education Teachers, Postsecondary"
+  },
+  {
+    "soc_code": "25-1199.00",
+    "soc_title": "Postsecondary Teachers, All Other"
   },
   {
     "soc_code": "25-2011.00",
-    "soc_title": "25-2011.00"
+    "soc_title": "Preschool Teachers, Except Special Education"
+  },
+  {
+    "soc_code": "25-2012.00",
+    "soc_title": "Kindergarten Teachers, Except Special Education"
   },
   {
     "soc_code": "25-2021.00",
-    "soc_title": "25-2021.00"
+    "soc_title": "Elementary School Teachers, Except Special Education"
   },
   {
     "soc_code": "25-2022.00",
-    "soc_title": "25-2022.00"
+    "soc_title": "Middle School Teachers, Except Special and Career/Technical Education"
+  },
+  {
+    "soc_code": "25-2023.00",
+    "soc_title": "Career/Technical Education Teachers, Middle School"
+  },
+  {
+    "soc_code": "25-2031.00",
+    "soc_title": "Secondary School Teachers, Except Special and Career/Technical Education"
+  },
+  {
+    "soc_code": "25-2032.00",
+    "soc_title": "Career/Technical Education Teachers, Secondary School"
   },
   {
     "soc_code": "25-2051.00",
-    "soc_title": "25-2051.00"
+    "soc_title": "Special Education Teachers, Preschool"
   },
   {
     "soc_code": "25-2052.00",
-    "soc_title": "25-2052.00"
+    "soc_title": "Special Education Teachers, Kindergarten and Elementary School"
+  },
+  {
+    "soc_code": "25-2053.00",
+    "soc_title": "Special Education Teachers, Middle School"
+  },
+  {
+    "soc_code": "25-2054.00",
+    "soc_title": "Special Education Teachers, Secondary School"
+  },
+  {
+    "soc_code": "25-2059.00",
+    "soc_title": "Special Education Teachers, All Other"
   },
   {
     "soc_code": "25-2059.01",
-    "soc_title": "25-2059.01"
+    "soc_title": "Adapted Physical Education Specialists"
+  },
+  {
+    "soc_code": "25-3011.00",
+    "soc_title": "Adult Basic and Secondary Education and Literacy Teachers and Instructors"
+  },
+  {
+    "soc_code": "25-3021.00",
+    "soc_title": "Self-Enrichment Education Teachers"
   },
   {
     "soc_code": "25-3099.00",
-    "soc_title": "25-3099.00"
+    "soc_title": "Teachers and Instructors, All Other"
   },
   {
     "soc_code": "25-3099.02",
-    "soc_title": "25-3099.02"
+    "soc_title": "Tutors"
+  },
+  {
+    "soc_code": "25-4011.00",
+    "soc_title": "Archivists"
+  },
+  {
+    "soc_code": "25-4012.00",
+    "soc_title": "Curators"
+  },
+  {
+    "soc_code": "25-4013.00",
+    "soc_title": "Museum Technicians and Conservators"
   },
   {
     "soc_code": "25-4021.00",
-    "soc_title": "25-4021.00"
+    "soc_title": "Librarians"
+  },
+  {
+    "soc_code": "25-4031.00",
+    "soc_title": "Library Technicians"
   },
   {
     "soc_code": "25-9011.00",
-    "soc_title": "25-9011.00"
+    "soc_title": "Audio-Visual and Multimedia Collections Specialists"
+  },
+  {
+    "soc_code": "25-9021.00",
+    "soc_title": "Farm and Home Management Advisors"
+  },
+  {
+    "soc_code": "25-9031.00",
+    "soc_title": "Instructional Coordinators"
+  },
+  {
+    "soc_code": "25-9031.01",
+    "soc_title": "Instructional Designers and Technologists"
   },
   {
     "soc_code": "25-9041.00",
-    "soc_title": "25-9041.00"
+    "soc_title": "Teacher Assistants"
+  },
+  {
+    "soc_code": "25-9099.00",
+    "soc_title": "Education, Training, and Library Workers, All Other"
   },
   {
     "soc_code": "27-1011.00",
-    "soc_title": "27-1011.00"
+    "soc_title": "Art Directors"
   },
   {
     "soc_code": "27-1012.00",
-    "soc_title": "27-1012.00"
+    "soc_title": "Craft Artists"
+  },
+  {
+    "soc_code": "27-1013.00",
+    "soc_title": "Fine Artists, Including Painters, Sculptors, and Illustrators"
   },
   {
     "soc_code": "27-1014.00",
-    "soc_title": "27-1014.00"
+    "soc_title": "Multimedia Artists and Animators"
+  },
+  {
+    "soc_code": "27-1019.00",
+    "soc_title": "Artists and Related Workers, All Other"
   },
   {
     "soc_code": "27-1021.00",
-    "soc_title": "27-1021.00"
+    "soc_title": "Commercial and Industrial Designers"
+  },
+  {
+    "soc_code": "27-1022.00",
+    "soc_title": "Fashion Designers"
+  },
+  {
+    "soc_code": "27-1023.00",
+    "soc_title": "Floral Designers"
   },
   {
     "soc_code": "27-1024.00",
-    "soc_title": "27-1024.00"
+    "soc_title": "Graphic Designers"
   },
   {
     "soc_code": "27-1025.00",
-    "soc_title": "27-1025.00"
+    "soc_title": "Interior Designers"
   },
   {
     "soc_code": "27-1026.00",
-    "soc_title": "27-1026.00"
+    "soc_title": "Merchandise Displayers and Window Trimmers"
+  },
+  {
+    "soc_code": "27-1027.00",
+    "soc_title": "Set and Exhibit Designers"
+  },
+  {
+    "soc_code": "27-1029.00",
+    "soc_title": "Designers, All Other"
   },
   {
     "soc_code": "27-2011.00",
-    "soc_title": "27-2011.00"
+    "soc_title": "Actors"
   },
   {
     "soc_code": "27-2012.00",
-    "soc_title": "27-2012.00"
+    "soc_title": "Producers and Directors"
   },
   {
     "soc_code": "27-2012.01",
-    "soc_title": "27-2012.01"
+    "soc_title": "Producers"
+  },
+  {
+    "soc_code": "27-2012.02",
+    "soc_title": "Directors- Stage, Motion Pictures, Television, and Radio"
+  },
+  {
+    "soc_code": "27-2012.03",
+    "soc_title": "Program Directors"
   },
   {
     "soc_code": "27-2012.04",
-    "soc_title": "27-2012.04"
+    "soc_title": "Talent Directors"
   },
   {
     "soc_code": "27-2012.05",
-    "soc_title": "27-2012.05"
+    "soc_title": "Technical Directors/Managers"
+  },
+  {
+    "soc_code": "27-2021.00",
+    "soc_title": "Athletes and Sports Competitors"
   },
   {
     "soc_code": "27-2022.00",
-    "soc_title": "27-2022.00"
+    "soc_title": "Coaches and Scouts"
+  },
+  {
+    "soc_code": "27-2023.00",
+    "soc_title": "Umpires, Referees, and Other Sports Officials"
+  },
+  {
+    "soc_code": "27-2031.00",
+    "soc_title": "Dancers"
   },
   {
     "soc_code": "27-2032.00",
-    "soc_title": "27-2032.00"
+    "soc_title": "Choreographers"
+  },
+  {
+    "soc_code": "27-2041.00",
+    "soc_title": "Music Directors and Composers"
   },
   {
     "soc_code": "27-2041.01",
-    "soc_title": "27-2041.01"
+    "soc_title": "Music Directors"
   },
   {
     "soc_code": "27-2041.04",
-    "soc_title": "27-2041.04"
+    "soc_title": "Music Composers and Arrangers"
+  },
+  {
+    "soc_code": "27-2042.00",
+    "soc_title": "Musicians and Singers"
+  },
+  {
+    "soc_code": "27-2042.01",
+    "soc_title": "Singers"
+  },
+  {
+    "soc_code": "27-2042.02",
+    "soc_title": "Musicians, Instrumental"
+  },
+  {
+    "soc_code": "27-2099.00",
+    "soc_title": "Entertainers and Performers, Sports and Related Workers, All Other"
   },
   {
     "soc_code": "27-3011.00",
-    "soc_title": "27-3011.00"
+    "soc_title": "Radio and Television Announcers"
   },
   {
     "soc_code": "27-3012.00",
-    "soc_title": "27-3012.00"
+    "soc_title": "Public Address System and Other Announcers"
+  },
+  {
+    "soc_code": "27-3021.00",
+    "soc_title": "Broadcast News Analysts"
   },
   {
     "soc_code": "27-3022.00",
-    "soc_title": "27-3022.00"
+    "soc_title": "Reporters and Correspondents"
   },
   {
     "soc_code": "27-3031.00",
-    "soc_title": "27-3031.00"
+    "soc_title": "Public Relations Specialists"
   },
   {
     "soc_code": "27-3041.00",
-    "soc_title": "27-3041.00"
+    "soc_title": "Editors"
+  },
+  {
+    "soc_code": "27-3042.00",
+    "soc_title": "Technical Writers"
   },
   {
     "soc_code": "27-3043.00",
-    "soc_title": "27-3043.00"
+    "soc_title": "Writers and Authors"
   },
   {
     "soc_code": "27-3043.04",
-    "soc_title": "27-3043.04"
+    "soc_title": "Copy Writers"
+  },
+  {
+    "soc_code": "27-3043.05",
+    "soc_title": "Poets, Lyricists and Creative Writers"
+  },
+  {
+    "soc_code": "27-3091.00",
+    "soc_title": "Interpreters and Translators"
+  },
+  {
+    "soc_code": "27-3099.00",
+    "soc_title": "Media and Communication Workers, All Other"
+  },
+  {
+    "soc_code": "27-4011.00",
+    "soc_title": "Audio and Video Equipment Technicians"
   },
   {
     "soc_code": "27-4012.00",
-    "soc_title": "27-4012.00"
+    "soc_title": "Broadcast Technicians"
   },
   {
     "soc_code": "27-4013.00",
-    "soc_title": "27-4013.00"
+    "soc_title": "Radio Operators"
+  },
+  {
+    "soc_code": "27-4014.00",
+    "soc_title": "Sound Engineering Technicians"
+  },
+  {
+    "soc_code": "27-4021.00",
+    "soc_title": "Photographers"
   },
   {
     "soc_code": "27-4031.00",
-    "soc_title": "27-4031.00"
+    "soc_title": "Camera Operators, Television, Video, and Motion Picture"
+  },
+  {
+    "soc_code": "27-4032.00",
+    "soc_title": "Film and Video Editors"
+  },
+  {
+    "soc_code": "27-4099.00",
+    "soc_title": "Media and Communication Equipment Workers, All Other"
   },
   {
     "soc_code": "29-1011.00",
-    "soc_title": "29-1011.00"
+    "soc_title": "Chiropractors"
   },
   {
     "soc_code": "29-1021.00",
-    "soc_title": "29-1021.00"
+    "soc_title": "Dentists, General"
+  },
+  {
+    "soc_code": "29-1022.00",
+    "soc_title": "Oral and Maxillofacial Surgeons"
+  },
+  {
+    "soc_code": "29-1023.00",
+    "soc_title": "Orthodontists"
+  },
+  {
+    "soc_code": "29-1024.00",
+    "soc_title": "Prosthodontists"
+  },
+  {
+    "soc_code": "29-1029.00",
+    "soc_title": "Dentists, All Other Specialists"
   },
   {
     "soc_code": "29-1031.00",
-    "soc_title": "29-1031.00"
+    "soc_title": "Dietitians and Nutritionists"
   },
   {
     "soc_code": "29-1041.00",
-    "soc_title": "29-1041.00"
+    "soc_title": "Optometrists"
   },
   {
     "soc_code": "29-1051.00",
-    "soc_title": "29-1051.00"
+    "soc_title": "Pharmacists"
   },
   {
     "soc_code": "29-1061.00",
-    "soc_title": "29-1061.00"
+    "soc_title": "Anesthesiologists"
+  },
+  {
+    "soc_code": "29-1062.00",
+    "soc_title": "Family and General Practitioners"
+  },
+  {
+    "soc_code": "29-1063.00",
+    "soc_title": "Internists, General"
+  },
+  {
+    "soc_code": "29-1064.00",
+    "soc_title": "Obstetricians and Gynecologists"
+  },
+  {
+    "soc_code": "29-1065.00",
+    "soc_title": "Pediatricians, General"
+  },
+  {
+    "soc_code": "29-1066.00",
+    "soc_title": "Psychiatrists"
+  },
+  {
+    "soc_code": "29-1067.00",
+    "soc_title": "Surgeons"
   },
   {
     "soc_code": "29-1069.00",
-    "soc_title": "29-1069.00"
+    "soc_title": "Physicians and Surgeons, All Other"
+  },
+  {
+    "soc_code": "29-1069.01",
+    "soc_title": "Allergists and Immunologists"
   },
   {
     "soc_code": "29-1069.02",
-    "soc_title": "29-1069.02"
+    "soc_title": "Dermatologists"
+  },
+  {
+    "soc_code": "29-1069.03",
+    "soc_title": "Hospitalists"
+  },
+  {
+    "soc_code": "29-1069.04",
+    "soc_title": "Neurologists"
+  },
+  {
+    "soc_code": "29-1069.05",
+    "soc_title": "Nuclear Medicine Physicians"
+  },
+  {
+    "soc_code": "29-1069.06",
+    "soc_title": "Ophthalmologists"
+  },
+  {
+    "soc_code": "29-1069.07",
+    "soc_title": "Pathologists"
+  },
+  {
+    "soc_code": "29-1069.08",
+    "soc_title": "Physical Medicine and Rehabilitation Physicians"
+  },
+  {
+    "soc_code": "29-1069.09",
+    "soc_title": "Preventive Medicine Physicians"
+  },
+  {
+    "soc_code": "29-1069.10",
+    "soc_title": "Radiologists"
   },
   {
     "soc_code": "29-1069.11",
-    "soc_title": "29-1069.11"
+    "soc_title": "Sports Medicine Physicians"
+  },
+  {
+    "soc_code": "29-1069.12",
+    "soc_title": "Urologists"
   },
   {
     "soc_code": "29-1071.00",
-    "soc_title": "29-1071.00"
+    "soc_title": "Physician Assistants"
+  },
+  {
+    "soc_code": "29-1071.01",
+    "soc_title": "Anesthesiologist Assistants"
+  },
+  {
+    "soc_code": "29-1081.00",
+    "soc_title": "Podiatrists"
+  },
+  {
+    "soc_code": "29-1122.00",
+    "soc_title": "Occupational Therapists"
   },
   {
     "soc_code": "29-1122.01",
-    "soc_title": "29-1122.01"
+    "soc_title": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists"
   },
   {
     "soc_code": "29-1123.00",
-    "soc_title": "29-1123.00"
+    "soc_title": "Physical Therapists"
+  },
+  {
+    "soc_code": "29-1124.00",
+    "soc_title": "Radiation Therapists"
+  },
+  {
+    "soc_code": "29-1125.00",
+    "soc_title": "Recreational Therapists"
+  },
+  {
+    "soc_code": "29-1125.01",
+    "soc_title": "Art Therapists"
+  },
+  {
+    "soc_code": "29-1125.02",
+    "soc_title": "Music Therapists"
+  },
+  {
+    "soc_code": "29-1126.00",
+    "soc_title": "Respiratory Therapists"
+  },
+  {
+    "soc_code": "29-1127.00",
+    "soc_title": "Speech-Language Pathologists"
+  },
+  {
+    "soc_code": "29-1128.00",
+    "soc_title": "Exercise Physiologists"
+  },
+  {
+    "soc_code": "29-1129.00",
+    "soc_title": "Therapists, All Other"
+  },
+  {
+    "soc_code": "29-1131.00",
+    "soc_title": "Veterinarians"
   },
   {
     "soc_code": "29-1141.00",
-    "soc_title": "29-1141.00"
+    "soc_title": "Registered Nurses"
+  },
+  {
+    "soc_code": "29-1141.01",
+    "soc_title": "Acute Care Nurses"
+  },
+  {
+    "soc_code": "29-1141.02",
+    "soc_title": "Advanced Practice Psychiatric Nurses"
   },
   {
     "soc_code": "29-1141.03",
-    "soc_title": "29-1141.03"
+    "soc_title": "Critical Care Nurses"
+  },
+  {
+    "soc_code": "29-1141.04",
+    "soc_title": "Clinical Nurse Specialists"
+  },
+  {
+    "soc_code": "29-1151.00",
+    "soc_title": "Nurse Anesthetists"
+  },
+  {
+    "soc_code": "29-1161.00",
+    "soc_title": "Nurse Midwives"
   },
   {
     "soc_code": "29-1171.00",
-    "soc_title": "29-1171.00"
+    "soc_title": "Nurse Practitioners"
   },
   {
     "soc_code": "29-1181.00",
-    "soc_title": "29-1181.00"
+    "soc_title": "Audiologists"
+  },
+  {
+    "soc_code": "29-1199.00",
+    "soc_title": "Health Diagnosing and Treating Practitioners, All Other"
+  },
+  {
+    "soc_code": "29-1199.01",
+    "soc_title": "Acupuncturists"
   },
   {
     "soc_code": "29-1199.04",
-    "soc_title": "29-1199.04"
+    "soc_title": "Naturopathic Physicians"
   },
   {
     "soc_code": "29-1199.05",
-    "soc_title": "29-1199.05"
+    "soc_title": "Orthoptists"
+  },
+  {
+    "soc_code": "29-2011.00",
+    "soc_title": "Medical and Clinical Laboratory Technologists"
+  },
+  {
+    "soc_code": "29-2011.01",
+    "soc_title": "Cytogenetic Technologists"
+  },
+  {
+    "soc_code": "29-2011.02",
+    "soc_title": "Cytotechnologists"
+  },
+  {
+    "soc_code": "29-2011.03",
+    "soc_title": "Histotechnologists and Histologic Technicians"
   },
   {
     "soc_code": "29-2012.00",
-    "soc_title": "29-2012.00"
+    "soc_title": "Medical and Clinical Laboratory Technicians"
+  },
+  {
+    "soc_code": "29-2021.00",
+    "soc_title": "Dental Hygienists"
   },
   {
     "soc_code": "29-2031.00",
-    "soc_title": "29-2031.00"
+    "soc_title": "Cardiovascular Technologists and Technicians"
   },
   {
     "soc_code": "29-2032.00",
-    "soc_title": "29-2032.00"
+    "soc_title": "Diagnostic Medical Sonographers"
+  },
+  {
+    "soc_code": "29-2033.00",
+    "soc_title": "Nuclear Medicine Technologists"
   },
   {
     "soc_code": "29-2034.00",
-    "soc_title": "29-2034.00"
+    "soc_title": "Radiologic Technologists"
+  },
+  {
+    "soc_code": "29-2035.00",
+    "soc_title": "Magnetic Resonance Imaging Technologists"
   },
   {
     "soc_code": "29-2041.00",
-    "soc_title": "29-2041.00"
+    "soc_title": "Emergency Medical Technicians and Paramedics"
+  },
+  {
+    "soc_code": "29-2051.00",
+    "soc_title": "Dietetic Technicians"
   },
   {
     "soc_code": "29-2052.00",
-    "soc_title": "29-2052.00"
+    "soc_title": "Pharmacy Technicians"
+  },
+  {
+    "soc_code": "29-2053.00",
+    "soc_title": "Psychiatric Technicians"
+  },
+  {
+    "soc_code": "29-2054.00",
+    "soc_title": "Respiratory Therapy Technicians"
   },
   {
     "soc_code": "29-2055.00",
-    "soc_title": "29-2055.00"
+    "soc_title": "Surgical Technologists"
   },
   {
     "soc_code": "29-2056.00",
-    "soc_title": "29-2056.00"
+    "soc_title": "Veterinary Technologists and Technicians"
+  },
+  {
+    "soc_code": "29-2057.00",
+    "soc_title": "Ophthalmic Medical Technicians"
   },
   {
     "soc_code": "29-2061.00",
-    "soc_title": "29-2061.00"
+    "soc_title": "Licensed Practical and Licensed Vocational Nurses"
   },
   {
     "soc_code": "29-2071.00",
-    "soc_title": "29-2071.00"
+    "soc_title": "Medical Records and Health Information Technicians"
   },
   {
     "soc_code": "29-2081.00",
-    "soc_title": "29-2081.00"
+    "soc_title": "Opticians, Dispensing"
   },
   {
     "soc_code": "29-2091.00",
-    "soc_title": "29-2091.00"
+    "soc_title": "Orthotists and Prosthetists"
   },
   {
     "soc_code": "29-2092.00",
-    "soc_title": "29-2092.00"
+    "soc_title": "Hearing Aid Specialists"
+  },
+  {
+    "soc_code": "29-2099.00",
+    "soc_title": "Health Technologists and Technicians, All Other"
+  },
+  {
+    "soc_code": "29-2099.01",
+    "soc_title": "Neurodiagnostic Technologists"
+  },
+  {
+    "soc_code": "29-2099.05",
+    "soc_title": "Ophthalmic Medical Technologists"
   },
   {
     "soc_code": "29-2099.06",
-    "soc_title": "29-2099.06"
+    "soc_title": "Radiologic Technicians"
   },
   {
     "soc_code": "29-2099.07",
-    "soc_title": "29-2099.07"
+    "soc_title": "Surgical Assistants"
   },
   {
     "soc_code": "29-9011.00",
-    "soc_title": "29-9011.00"
+    "soc_title": "Occupational Health and Safety Specialists"
+  },
+  {
+    "soc_code": "29-9012.00",
+    "soc_title": "Occupational Health and Safety Technicians"
   },
   {
     "soc_code": "29-9091.00",
-    "soc_title": "29-9091.00"
+    "soc_title": "Athletic Trainers"
+  },
+  {
+    "soc_code": "29-9092.00",
+    "soc_title": "Genetic Counselors"
+  },
+  {
+    "soc_code": "29-9099.00",
+    "soc_title": "Healthcare Practitioners and Technical Workers, All Other"
+  },
+  {
+    "soc_code": "29-9099.01",
+    "soc_title": "Midwives"
   },
   {
     "soc_code": "31-1011.00",
-    "soc_title": "31-1011.00"
+    "soc_title": "Home Health Aides"
   },
   {
     "soc_code": "31-1013.00",
-    "soc_title": "31-1013.00"
+    "soc_title": "Psychiatric Aides"
+  },
+  {
+    "soc_code": "31-1014.00",
+    "soc_title": "Nursing Assistants"
   },
   {
     "soc_code": "31-1015.00",
-    "soc_title": "31-1015.00"
+    "soc_title": "Orderlies"
   },
   {
     "soc_code": "31-2011.00",
-    "soc_title": "31-2011.00"
+    "soc_title": "Occupational Therapy Assistants"
+  },
+  {
+    "soc_code": "31-2012.00",
+    "soc_title": "Occupational Therapy Aides"
+  },
+  {
+    "soc_code": "31-2021.00",
+    "soc_title": "Physical Therapist Assistants"
+  },
+  {
+    "soc_code": "31-2022.00",
+    "soc_title": "Physical Therapist Aides"
+  },
+  {
+    "soc_code": "31-9011.00",
+    "soc_title": "Massage Therapists"
   },
   {
     "soc_code": "31-9091.00",
-    "soc_title": "31-9091.00"
+    "soc_title": "Dental Assistants"
   },
   {
     "soc_code": "31-9092.00",
-    "soc_title": "31-9092.00"
+    "soc_title": "Medical Assistants"
   },
   {
     "soc_code": "31-9093.00",
-    "soc_title": "31-9093.00"
+    "soc_title": "Medical Equipment Preparers"
+  },
+  {
+    "soc_code": "31-9094.00",
+    "soc_title": "Medical Transcriptionists"
+  },
+  {
+    "soc_code": "31-9095.00",
+    "soc_title": "Pharmacy Aides"
+  },
+  {
+    "soc_code": "31-9096.00",
+    "soc_title": "Veterinary Assistants and Laboratory Animal Caretakers"
+  },
+  {
+    "soc_code": "31-9097.00",
+    "soc_title": "Phlebotomists"
+  },
+  {
+    "soc_code": "31-9099.00",
+    "soc_title": "Healthcare Support Workers, All Other"
   },
   {
     "soc_code": "31-9099.01",
-    "soc_title": "31-9099.01"
+    "soc_title": "Speech-Language Pathology Assistants"
+  },
+  {
+    "soc_code": "31-9099.02",
+    "soc_title": "Endoscopy Technicians"
   },
   {
     "soc_code": "33-1011.00",
-    "soc_title": "33-1011.00"
+    "soc_title": "First-Line Supervisors of Correctional Officers"
+  },
+  {
+    "soc_code": "33-1012.00",
+    "soc_title": "First-Line Supervisors of Police and Detectives"
+  },
+  {
+    "soc_code": "33-1021.00",
+    "soc_title": "First-Line Supervisors of Fire Fighting and Prevention Workers"
+  },
+  {
+    "soc_code": "33-1021.01",
+    "soc_title": "Municipal Fire Fighting and Prevention Supervisors"
   },
   {
     "soc_code": "33-1021.02",
-    "soc_title": "33-1021.02"
+    "soc_title": "Forest Fire Fighting and Prevention Supervisors"
+  },
+  {
+    "soc_code": "33-1099.00",
+    "soc_title": "First-Line Supervisors of Protective Service Workers, All Other"
+  },
+  {
+    "soc_code": "33-2011.00",
+    "soc_title": "Firefighters"
   },
   {
     "soc_code": "33-2011.01",
-    "soc_title": "33-2011.01"
+    "soc_title": "Municipal Firefighters"
+  },
+  {
+    "soc_code": "33-2011.02",
+    "soc_title": "Forest Firefighters"
+  },
+  {
+    "soc_code": "33-2021.00",
+    "soc_title": "Fire Inspectors and Investigators"
+  },
+  {
+    "soc_code": "33-2021.01",
+    "soc_title": "Fire Inspectors"
+  },
+  {
+    "soc_code": "33-2021.02",
+    "soc_title": "Fire Investigators"
+  },
+  {
+    "soc_code": "33-2022.00",
+    "soc_title": "Forest Fire Inspectors and Prevention Specialists"
+  },
+  {
+    "soc_code": "33-3011.00",
+    "soc_title": "Bailiffs"
+  },
+  {
+    "soc_code": "33-3012.00",
+    "soc_title": "Correctional Officers and Jailers"
+  },
+  {
+    "soc_code": "33-3021.00",
+    "soc_title": "Detectives and Criminal Investigators"
+  },
+  {
+    "soc_code": "33-3021.01",
+    "soc_title": "Police Detectives"
+  },
+  {
+    "soc_code": "33-3021.02",
+    "soc_title": "Police Identification and Records Officers"
+  },
+  {
+    "soc_code": "33-3021.03",
+    "soc_title": "Criminal Investigators and Special Agents"
+  },
+  {
+    "soc_code": "33-3021.05",
+    "soc_title": "Immigration and Customs Inspectors"
   },
   {
     "soc_code": "33-3021.06",
-    "soc_title": "33-3021.06"
+    "soc_title": "Intelligence Analysts"
+  },
+  {
+    "soc_code": "33-3031.00",
+    "soc_title": "Fish and Game Wardens"
+  },
+  {
+    "soc_code": "33-3041.00",
+    "soc_title": "Parking Enforcement Workers"
   },
   {
     "soc_code": "33-3051.00",
-    "soc_title": "33-3051.00"
+    "soc_title": "Police and Sheriff's Patrol Officers"
+  },
+  {
+    "soc_code": "33-3051.01",
+    "soc_title": "Police Patrol Officers"
   },
   {
     "soc_code": "33-3051.03",
-    "soc_title": "33-3051.03"
+    "soc_title": "Sheriffs and Deputy Sheriffs"
+  },
+  {
+    "soc_code": "33-3052.00",
+    "soc_title": "Transit and Railroad Police"
+  },
+  {
+    "soc_code": "33-9011.00",
+    "soc_title": "Animal Control Workers"
+  },
+  {
+    "soc_code": "33-9021.00",
+    "soc_title": "Private Detectives and Investigators"
+  },
+  {
+    "soc_code": "33-9031.00",
+    "soc_title": "Gaming Surveillance Officers and Gaming Investigators"
+  },
+  {
+    "soc_code": "33-9032.00",
+    "soc_title": "Security Guards"
+  },
+  {
+    "soc_code": "33-9091.00",
+    "soc_title": "Crossing Guards"
   },
   {
     "soc_code": "33-9092.00",
-    "soc_title": "33-9092.00"
+    "soc_title": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers"
+  },
+  {
+    "soc_code": "33-9093.00",
+    "soc_title": "Transportation Security Screeners"
+  },
+  {
+    "soc_code": "33-9099.00",
+    "soc_title": "Protective Service Workers, All Other"
+  },
+  {
+    "soc_code": "33-9099.02",
+    "soc_title": "Retail Loss Prevention Specialists"
   },
   {
     "soc_code": "35-1011.00",
-    "soc_title": "35-1011.00"
+    "soc_title": "Chefs and Head Cooks"
   },
   {
     "soc_code": "35-1012.00",
-    "soc_title": "35-1012.00"
+    "soc_title": "First-Line Supervisors of Food Preparation and Serving Workers"
+  },
+  {
+    "soc_code": "35-2011.00",
+    "soc_title": "Cooks, Fast Food"
+  },
+  {
+    "soc_code": "35-2012.00",
+    "soc_title": "Cooks, Institution and Cafeteria"
+  },
+  {
+    "soc_code": "35-2013.00",
+    "soc_title": "Cooks, Private Household"
+  },
+  {
+    "soc_code": "35-2014.00",
+    "soc_title": "Cooks, Restaurant"
   },
   {
     "soc_code": "35-2015.00",
-    "soc_title": "35-2015.00"
+    "soc_title": "Cooks, Short Order"
+  },
+  {
+    "soc_code": "35-2019.00",
+    "soc_title": "Cooks, All Other"
   },
   {
     "soc_code": "35-2021.00",
-    "soc_title": "35-2021.00"
+    "soc_title": "Food Preparation Workers"
   },
   {
     "soc_code": "35-3011.00",
-    "soc_title": "35-3011.00"
+    "soc_title": "Bartenders"
   },
   {
     "soc_code": "35-3021.00",
-    "soc_title": "35-3021.00"
+    "soc_title": "Combined Food Preparation and Serving Workers, Including Fast Food"
   },
   {
     "soc_code": "35-3022.00",
-    "soc_title": "35-3022.00"
+    "soc_title": "Counter Attendants, Cafeteria, Food Concession, and Coffee Shop"
   },
   {
     "soc_code": "35-3022.01",
-    "soc_title": "35-3022.01"
+    "soc_title": "Baristas"
   },
   {
     "soc_code": "35-3031.00",
-    "soc_title": "35-3031.00"
+    "soc_title": "Waiters and Waitresses"
+  },
+  {
+    "soc_code": "35-3041.00",
+    "soc_title": "Food Servers, Nonrestaurant"
   },
   {
     "soc_code": "35-9011.00",
-    "soc_title": "35-9011.00"
+    "soc_title": "Dining Room and Cafeteria Attendants and Bartender Helpers"
   },
   {
     "soc_code": "35-9021.00",
-    "soc_title": "35-9021.00"
+    "soc_title": "Dishwashers"
   },
   {
     "soc_code": "35-9031.00",
-    "soc_title": "35-9031.00"
+    "soc_title": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop"
+  },
+  {
+    "soc_code": "35-9099.00",
+    "soc_title": "Food Preparation and Serving Related Workers, All Other"
   },
   {
     "soc_code": "37-1011.00",
-    "soc_title": "37-1011.00"
+    "soc_title": "First-Line Supervisors of Housekeeping and Janitorial Workers"
   },
   {
     "soc_code": "37-1012.00",
-    "soc_title": "37-1012.00"
+    "soc_title": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers"
   },
   {
     "soc_code": "37-2011.00",
-    "soc_title": "37-2011.00"
+    "soc_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
   },
   {
     "soc_code": "37-2012.00",
-    "soc_title": "37-2012.00"
+    "soc_title": "Maids and Housekeeping Cleaners"
+  },
+  {
+    "soc_code": "37-2019.00",
+    "soc_title": "Building Cleaning Workers, All Other"
+  },
+  {
+    "soc_code": "37-2021.00",
+    "soc_title": "Pest Control Workers"
   },
   {
     "soc_code": "37-3011.00",
-    "soc_title": "37-3011.00"
+    "soc_title": "Landscaping and Groundskeeping Workers"
+  },
+  {
+    "soc_code": "37-3012.00",
+    "soc_title": "Pesticide Handlers, Sprayers, and Applicators, Vegetation"
+  },
+  {
+    "soc_code": "37-3013.00",
+    "soc_title": "Tree Trimmers and Pruners"
+  },
+  {
+    "soc_code": "37-3019.00",
+    "soc_title": "Grounds Maintenance Workers, All Other"
+  },
+  {
+    "soc_code": "39-1011.00",
+    "soc_title": "Gaming Supervisors"
+  },
+  {
+    "soc_code": "39-1012.00",
+    "soc_title": "Slot Supervisors"
+  },
+  {
+    "soc_code": "39-1021.00",
+    "soc_title": "First-Line Supervisors of Personal Service Workers"
+  },
+  {
+    "soc_code": "39-1021.01",
+    "soc_title": "Spa Managers"
   },
   {
     "soc_code": "39-2011.00",
-    "soc_title": "39-2011.00"
+    "soc_title": "Animal Trainers"
   },
   {
     "soc_code": "39-2021.00",
-    "soc_title": "39-2021.00"
+    "soc_title": "Nonfarm Animal Caretakers"
+  },
+  {
+    "soc_code": "39-3011.00",
+    "soc_title": "Gaming Dealers"
+  },
+  {
+    "soc_code": "39-3012.00",
+    "soc_title": "Gaming and Sports Book Writers and Runners"
+  },
+  {
+    "soc_code": "39-3019.00",
+    "soc_title": "Gaming Service Workers, All Other"
+  },
+  {
+    "soc_code": "39-3021.00",
+    "soc_title": "Motion Picture Projectionists"
   },
   {
     "soc_code": "39-3031.00",
-    "soc_title": "39-3031.00"
+    "soc_title": "Ushers, Lobby Attendants, and Ticket Takers"
   },
   {
     "soc_code": "39-3091.00",
-    "soc_title": "39-3091.00"
+    "soc_title": "Amusement and Recreation Attendants"
+  },
+  {
+    "soc_code": "39-3092.00",
+    "soc_title": "Costume Attendants"
+  },
+  {
+    "soc_code": "39-3093.00",
+    "soc_title": "Locker Room, Coatroom, and Dressing Room Attendants"
+  },
+  {
+    "soc_code": "39-3099.00",
+    "soc_title": "Entertainment Attendants and Related Workers, All Other"
+  },
+  {
+    "soc_code": "39-4011.00",
+    "soc_title": "Embalmers"
+  },
+  {
+    "soc_code": "39-4021.00",
+    "soc_title": "Funeral Attendants"
+  },
+  {
+    "soc_code": "39-4031.00",
+    "soc_title": "Morticians, Undertakers, and Funeral Directors"
+  },
+  {
+    "soc_code": "39-5011.00",
+    "soc_title": "Barbers"
   },
   {
     "soc_code": "39-5012.00",
-    "soc_title": "39-5012.00"
+    "soc_title": "Hairdressers, Hairstylists, and Cosmetologists"
+  },
+  {
+    "soc_code": "39-5091.00",
+    "soc_title": "Makeup Artists, Theatrical and Performance"
   },
   {
     "soc_code": "39-5092.00",
-    "soc_title": "39-5092.00"
+    "soc_title": "Manicurists and Pedicurists"
+  },
+  {
+    "soc_code": "39-5093.00",
+    "soc_title": "Shampooers"
   },
   {
     "soc_code": "39-5094.00",
-    "soc_title": "39-5094.00"
+    "soc_title": "Skincare Specialists"
+  },
+  {
+    "soc_code": "39-6011.00",
+    "soc_title": "Baggage Porters and Bellhops"
   },
   {
     "soc_code": "39-6012.00",
-    "soc_title": "39-6012.00"
+    "soc_title": "Concierges"
   },
   {
     "soc_code": "39-7011.00",
-    "soc_title": "39-7011.00"
+    "soc_title": "Tour Guides and Escorts"
+  },
+  {
+    "soc_code": "39-7012.00",
+    "soc_title": "Travel Guides"
   },
   {
     "soc_code": "39-9011.00",
-    "soc_title": "39-9011.00"
+    "soc_title": "Childcare Workers"
+  },
+  {
+    "soc_code": "39-9011.01",
+    "soc_title": "Nannies"
   },
   {
     "soc_code": "39-9021.00",
-    "soc_title": "39-9021.00"
+    "soc_title": "Personal Care Aides"
   },
   {
     "soc_code": "39-9031.00",
-    "soc_title": "39-9031.00"
+    "soc_title": "Fitness Trainers and Aerobics Instructors"
   },
   {
     "soc_code": "39-9032.00",
-    "soc_title": "39-9032.00"
+    "soc_title": "Recreation Workers"
   },
   {
     "soc_code": "39-9041.00",
-    "soc_title": "39-9041.00"
+    "soc_title": "Residential Advisors"
+  },
+  {
+    "soc_code": "39-9099.00",
+    "soc_title": "Personal Care and Service Workers, All Other"
   },
   {
     "soc_code": "41-1011.00",
-    "soc_title": "41-1011.00"
+    "soc_title": "First-Line Supervisors of Retail Sales Workers"
   },
   {
     "soc_code": "41-1012.00",
-    "soc_title": "41-1012.00"
+    "soc_title": "First-Line Supervisors of Non-Retail Sales Workers"
   },
   {
     "soc_code": "41-2011.00",
-    "soc_title": "41-2011.00"
+    "soc_title": "Cashiers"
+  },
+  {
+    "soc_code": "41-2012.00",
+    "soc_title": "Gaming Change Persons and Booth Cashiers"
+  },
+  {
+    "soc_code": "41-2021.00",
+    "soc_title": "Counter and Rental Clerks"
   },
   {
     "soc_code": "41-2022.00",
-    "soc_title": "41-2022.00"
+    "soc_title": "Parts Salespersons"
   },
   {
     "soc_code": "41-2031.00",
-    "soc_title": "41-2031.00"
+    "soc_title": "Retail Salespersons"
   },
   {
     "soc_code": "41-3011.00",
-    "soc_title": "41-3011.00"
+    "soc_title": "Advertising Sales Agents"
   },
   {
     "soc_code": "41-3021.00",
-    "soc_title": "41-3021.00"
+    "soc_title": "Insurance Sales Agents"
+  },
+  {
+    "soc_code": "41-3031.00",
+    "soc_title": "Securities, Commodities, and Financial Services Sales Agents"
+  },
+  {
+    "soc_code": "41-3031.01",
+    "soc_title": "Sales Agents, Securities and Commodities"
   },
   {
     "soc_code": "41-3031.02",
-    "soc_title": "41-3031.02"
+    "soc_title": "Sales Agents, Financial Services"
+  },
+  {
+    "soc_code": "41-3031.03",
+    "soc_title": "Securities and Commodities Traders"
+  },
+  {
+    "soc_code": "41-3041.00",
+    "soc_title": "Travel Agents"
   },
   {
     "soc_code": "41-3099.00",
-    "soc_title": "41-3099.00"
+    "soc_title": "Sales Representatives, Services, All Other"
   },
   {
     "soc_code": "41-3099.01",
-    "soc_title": "41-3099.01"
+    "soc_title": "Energy Brokers"
   },
   {
     "soc_code": "41-4011.00",
-    "soc_title": "41-4011.00"
+    "soc_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+  },
+  {
+    "soc_code": "41-4011.07",
+    "soc_title": "Solar Sales Representatives and Assessors"
   },
   {
     "soc_code": "41-4012.00",
-    "soc_title": "41-4012.00"
+    "soc_title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
   },
   {
     "soc_code": "41-9011.00",
-    "soc_title": "41-9011.00"
+    "soc_title": "Demonstrators and Product Promoters"
+  },
+  {
+    "soc_code": "41-9012.00",
+    "soc_title": "Models"
   },
   {
     "soc_code": "41-9021.00",
-    "soc_title": "41-9021.00"
+    "soc_title": "Real Estate Brokers"
+  },
+  {
+    "soc_code": "41-9022.00",
+    "soc_title": "Real Estate Sales Agents"
   },
   {
     "soc_code": "41-9031.00",
-    "soc_title": "41-9031.00"
+    "soc_title": "Sales Engineers"
   },
   {
     "soc_code": "41-9041.00",
-    "soc_title": "41-9041.00"
+    "soc_title": "Telemarketers"
   },
   {
     "soc_code": "41-9091.00",
-    "soc_title": "41-9091.00"
+    "soc_title": "Door-To-Door Sales Workers, News and Street Vendors, and Related Workers"
+  },
+  {
+    "soc_code": "41-9099.00",
+    "soc_title": "Sales and Related Workers, All Other"
   },
   {
     "soc_code": "43-1011.00",
-    "soc_title": "43-1011.00"
+    "soc_title": "First-Line Supervisors of Office and Administrative Support Workers"
   },
   {
     "soc_code": "43-2011.00",
-    "soc_title": "43-2011.00"
+    "soc_title": "Switchboard Operators, Including Answering Service"
+  },
+  {
+    "soc_code": "43-2021.00",
+    "soc_title": "Telephone Operators"
+  },
+  {
+    "soc_code": "43-2099.00",
+    "soc_title": "Communications Equipment Operators, All Other"
   },
   {
     "soc_code": "43-3011.00",
-    "soc_title": "43-3011.00"
+    "soc_title": "Bill and Account Collectors"
   },
   {
     "soc_code": "43-3021.00",
-    "soc_title": "43-3021.00"
+    "soc_title": "Billing and Posting Clerks"
+  },
+  {
+    "soc_code": "43-3021.01",
+    "soc_title": "Statement Clerks"
   },
   {
     "soc_code": "43-3021.02",
-    "soc_title": "43-3021.02"
+    "soc_title": "Billing, Cost, and Rate Clerks"
+  },
+  {
+    "soc_code": "43-3031.00",
+    "soc_title": "Bookkeeping, Accounting, and Auditing Clerks"
+  },
+  {
+    "soc_code": "43-3041.00",
+    "soc_title": "Gaming Cage Workers"
   },
   {
     "soc_code": "43-3051.00",
-    "soc_title": "43-3051.00"
+    "soc_title": "Payroll and Timekeeping Clerks"
   },
   {
     "soc_code": "43-3061.00",
-    "soc_title": "43-3061.00"
+    "soc_title": "Procurement Clerks"
   },
   {
     "soc_code": "43-3071.00",
-    "soc_title": "43-3071.00"
+    "soc_title": "Tellers"
+  },
+  {
+    "soc_code": "43-3099.00",
+    "soc_title": "Financial Clerks, All Other"
   },
   {
     "soc_code": "43-4011.00",
-    "soc_title": "43-4011.00"
+    "soc_title": "Brokerage Clerks"
+  },
+  {
+    "soc_code": "43-4021.00",
+    "soc_title": "Correspondence Clerks"
+  },
+  {
+    "soc_code": "43-4031.00",
+    "soc_title": "Court, Municipal, and License Clerks"
+  },
+  {
+    "soc_code": "43-4031.01",
+    "soc_title": "Court Clerks"
+  },
+  {
+    "soc_code": "43-4031.02",
+    "soc_title": "Municipal Clerks"
   },
   {
     "soc_code": "43-4031.03",
-    "soc_title": "43-4031.03"
+    "soc_title": "License Clerks"
+  },
+  {
+    "soc_code": "43-4041.00",
+    "soc_title": "Credit Authorizers, Checkers, and Clerks"
   },
   {
     "soc_code": "43-4041.01",
-    "soc_title": "43-4041.01"
+    "soc_title": "Credit Authorizers"
+  },
+  {
+    "soc_code": "43-4041.02",
+    "soc_title": "Credit Checkers"
   },
   {
     "soc_code": "43-4051.00",
-    "soc_title": "43-4051.00"
+    "soc_title": "Customer Service Representatives"
+  },
+  {
+    "soc_code": "43-4051.03",
+    "soc_title": "Patient Representatives"
+  },
+  {
+    "soc_code": "43-4061.00",
+    "soc_title": "Eligibility Interviewers, Government Programs"
   },
   {
     "soc_code": "43-4071.00",
-    "soc_title": "43-4071.00"
+    "soc_title": "File Clerks"
   },
   {
     "soc_code": "43-4081.00",
-    "soc_title": "43-4081.00"
+    "soc_title": "Hotel, Motel, and Resort Desk Clerks"
+  },
+  {
+    "soc_code": "43-4111.00",
+    "soc_title": "Interviewers, Except Eligibility and Loan"
   },
   {
     "soc_code": "43-4121.00",
-    "soc_title": "43-4121.00"
+    "soc_title": "Library Assistants, Clerical"
   },
   {
     "soc_code": "43-4131.00",
-    "soc_title": "43-4131.00"
+    "soc_title": "Loan Interviewers and Clerks"
+  },
+  {
+    "soc_code": "43-4141.00",
+    "soc_title": "New Accounts Clerks"
+  },
+  {
+    "soc_code": "43-4151.00",
+    "soc_title": "Order Clerks"
+  },
+  {
+    "soc_code": "43-4161.00",
+    "soc_title": "Human Resources Assistants, Except Payroll and Timekeeping"
   },
   {
     "soc_code": "43-4171.00",
-    "soc_title": "43-4171.00"
+    "soc_title": "Receptionists and Information Clerks"
   },
   {
     "soc_code": "43-4181.00",
-    "soc_title": "43-4181.00"
+    "soc_title": "Reservation and Transportation Ticket Agents and Travel Clerks"
+  },
+  {
+    "soc_code": "43-4199.00",
+    "soc_title": "Information and Record Clerks, All Other"
+  },
+  {
+    "soc_code": "43-5011.00",
+    "soc_title": "Cargo and Freight Agents"
   },
   {
     "soc_code": "43-5011.01",
-    "soc_title": "43-5011.01"
+    "soc_title": "Freight Forwarders"
   },
   {
     "soc_code": "43-5021.00",
-    "soc_title": "43-5021.00"
+    "soc_title": "Couriers and Messengers"
   },
   {
     "soc_code": "43-5031.00",
-    "soc_title": "43-5031.00"
+    "soc_title": "Police, Fire, and Ambulance Dispatchers"
+  },
+  {
+    "soc_code": "43-5032.00",
+    "soc_title": "Dispatchers, Except Police, Fire, and Ambulance"
+  },
+  {
+    "soc_code": "43-5041.00",
+    "soc_title": "Meter Readers, Utilities"
+  },
+  {
+    "soc_code": "43-5051.00",
+    "soc_title": "Postal Service Clerks"
+  },
+  {
+    "soc_code": "43-5052.00",
+    "soc_title": "Postal Service Mail Carriers"
+  },
+  {
+    "soc_code": "43-5053.00",
+    "soc_title": "Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+  },
+  {
+    "soc_code": "43-5061.00",
+    "soc_title": "Production, Planning, and Expediting Clerks"
   },
   {
     "soc_code": "43-5071.00",
-    "soc_title": "43-5071.00"
+    "soc_title": "Shipping, Receiving, and Traffic Clerks"
+  },
+  {
+    "soc_code": "43-5081.00",
+    "soc_title": "Stock Clerks and Order Fillers"
   },
   {
     "soc_code": "43-5081.01",
-    "soc_title": "43-5081.01"
+    "soc_title": "Stock Clerks, Sales Floor"
   },
   {
     "soc_code": "43-5081.02",
-    "soc_title": "43-5081.02"
+    "soc_title": "Marking Clerks"
   },
   {
     "soc_code": "43-5081.03",
-    "soc_title": "43-5081.03"
+    "soc_title": "Stock Clerks- Stockroom, Warehouse, or Storage Yard"
   },
   {
     "soc_code": "43-5081.04",
-    "soc_title": "43-5081.04"
+    "soc_title": "Order Fillers, Wholesale and Retail Sales"
   },
   {
     "soc_code": "43-5111.00",
-    "soc_title": "43-5111.00"
+    "soc_title": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
   },
   {
     "soc_code": "43-6011.00",
-    "soc_title": "43-6011.00"
+    "soc_title": "Executive Secretaries and Executive Administrative Assistants"
+  },
+  {
+    "soc_code": "43-6012.00",
+    "soc_title": "Legal Secretaries"
   },
   {
     "soc_code": "43-6013.00",
-    "soc_title": "43-6013.00"
+    "soc_title": "Medical Secretaries"
   },
   {
     "soc_code": "43-6014.00",
-    "soc_title": "43-6014.00"
+    "soc_title": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+  },
+  {
+    "soc_code": "43-9011.00",
+    "soc_title": "Computer Operators"
   },
   {
     "soc_code": "43-9021.00",
-    "soc_title": "43-9021.00"
+    "soc_title": "Data Entry Keyers"
+  },
+  {
+    "soc_code": "43-9022.00",
+    "soc_title": "Word Processors and Typists"
+  },
+  {
+    "soc_code": "43-9031.00",
+    "soc_title": "Desktop Publishers"
+  },
+  {
+    "soc_code": "43-9041.00",
+    "soc_title": "Insurance Claims and Policy Processing Clerks"
   },
   {
     "soc_code": "43-9041.01",
-    "soc_title": "43-9041.01"
+    "soc_title": "Insurance Claims Clerks"
   },
   {
     "soc_code": "43-9041.02",
-    "soc_title": "43-9041.02"
+    "soc_title": "Insurance Policy Processing Clerks"
   },
   {
     "soc_code": "43-9051.00",
-    "soc_title": "43-9051.00"
+    "soc_title": "Mail Clerks and Mail Machine Operators, Except Postal Service"
   },
   {
     "soc_code": "43-9061.00",
-    "soc_title": "43-9061.00"
+    "soc_title": "Office Clerks, General"
+  },
+  {
+    "soc_code": "43-9071.00",
+    "soc_title": "Office Machine Operators, Except Computer"
   },
   {
     "soc_code": "43-9081.00",
-    "soc_title": "43-9081.00"
+    "soc_title": "Proofreaders and Copy Markers"
   },
   {
     "soc_code": "43-9111.00",
-    "soc_title": "43-9111.00"
+    "soc_title": "Statistical Assistants"
+  },
+  {
+    "soc_code": "43-9111.01",
+    "soc_title": "Bioinformatics Technicians"
   },
   {
     "soc_code": "43-9199.00",
-    "soc_title": "43-9199.00"
+    "soc_title": "Office and Administrative Support Workers, All Other"
+  },
+  {
+    "soc_code": "45-1011.00",
+    "soc_title": "First-Line Supervisors of Farming, Fishing, and Forestry Workers"
   },
   {
     "soc_code": "45-1011.05",
-    "soc_title": "45-1011.05"
+    "soc_title": "First-Line Supervisors of Logging Workers"
+  },
+  {
+    "soc_code": "45-1011.06",
+    "soc_title": "First-Line Supervisors of Aquacultural Workers"
+  },
+  {
+    "soc_code": "45-1011.07",
+    "soc_title": "First-Line Supervisors of Agricultural Crop and Horticultural Workers"
+  },
+  {
+    "soc_code": "45-1011.08",
+    "soc_title": "First-Line Supervisors of Animal Husbandry and Animal Care Workers"
   },
   {
     "soc_code": "45-2011.00",
-    "soc_title": "45-2011.00"
+    "soc_title": "Agricultural Inspectors"
+  },
+  {
+    "soc_code": "45-2021.00",
+    "soc_title": "Animal Breeders"
+  },
+  {
+    "soc_code": "45-2041.00",
+    "soc_title": "Graders and Sorters, Agricultural Products"
+  },
+  {
+    "soc_code": "45-2091.00",
+    "soc_title": "Agricultural Equipment Operators"
+  },
+  {
+    "soc_code": "45-2092.00",
+    "soc_title": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse"
+  },
+  {
+    "soc_code": "45-2092.01",
+    "soc_title": "Nursery Workers"
+  },
+  {
+    "soc_code": "45-2092.02",
+    "soc_title": "Farmworkers and Laborers, Crop"
+  },
+  {
+    "soc_code": "45-2093.00",
+    "soc_title": "Farmworkers, Farm, Ranch, and Aquacultural Animals"
+  },
+  {
+    "soc_code": "45-2099.00",
+    "soc_title": "Agricultural Workers, All Other"
   },
   {
     "soc_code": "45-3011.00",
-    "soc_title": "45-3011.00"
+    "soc_title": "Fishers and Related Fishing Workers"
+  },
+  {
+    "soc_code": "45-3021.00",
+    "soc_title": "Hunters and Trappers"
   },
   {
     "soc_code": "45-4011.00",
-    "soc_title": "45-4011.00"
+    "soc_title": "Forest and Conservation Workers"
+  },
+  {
+    "soc_code": "45-4021.00",
+    "soc_title": "Fallers"
+  },
+  {
+    "soc_code": "45-4022.00",
+    "soc_title": "Logging Equipment Operators"
+  },
+  {
+    "soc_code": "45-4023.00",
+    "soc_title": "Log Graders and Scalers"
+  },
+  {
+    "soc_code": "45-4029.00",
+    "soc_title": "Logging Workers, All Other"
   },
   {
     "soc_code": "47-1011.00",
-    "soc_title": "47-1011.00"
+    "soc_title": "First-Line Supervisors of Construction Trades and Extraction Workers"
   },
   {
     "soc_code": "47-1011.03",
-    "soc_title": "47-1011.03"
+    "soc_title": "Solar Energy Installation Managers"
+  },
+  {
+    "soc_code": "47-2011.00",
+    "soc_title": "Boilermakers"
+  },
+  {
+    "soc_code": "47-2021.00",
+    "soc_title": "Brickmasons and Blockmasons"
+  },
+  {
+    "soc_code": "47-2022.00",
+    "soc_title": "Stonemasons"
+  },
+  {
+    "soc_code": "47-2031.00",
+    "soc_title": "Carpenters"
   },
   {
     "soc_code": "47-2031.01",
-    "soc_title": "47-2031.01"
+    "soc_title": "Construction Carpenters"
+  },
+  {
+    "soc_code": "47-2031.02",
+    "soc_title": "Rough Carpenters"
+  },
+  {
+    "soc_code": "47-2041.00",
+    "soc_title": "Carpet Installers"
+  },
+  {
+    "soc_code": "47-2042.00",
+    "soc_title": "Floor Layers, Except Carpet, Wood, and Hard Tiles"
+  },
+  {
+    "soc_code": "47-2043.00",
+    "soc_title": "Floor Sanders and Finishers"
+  },
+  {
+    "soc_code": "47-2044.00",
+    "soc_title": "Tile and Marble Setters"
+  },
+  {
+    "soc_code": "47-2051.00",
+    "soc_title": "Cement Masons and Concrete Finishers"
+  },
+  {
+    "soc_code": "47-2053.00",
+    "soc_title": "Terrazzo Workers and Finishers"
+  },
+  {
+    "soc_code": "47-2061.00",
+    "soc_title": "Construction Laborers"
   },
   {
     "soc_code": "47-2071.00",
-    "soc_title": "47-2071.00"
+    "soc_title": "Paving, Surfacing, and Tamping Equipment Operators"
+  },
+  {
+    "soc_code": "47-2072.00",
+    "soc_title": "Pile-Driver Operators"
+  },
+  {
+    "soc_code": "47-2073.00",
+    "soc_title": "Operating Engineers and Other Construction Equipment Operators"
+  },
+  {
+    "soc_code": "47-2081.00",
+    "soc_title": "Drywall and Ceiling Tile Installers"
+  },
+  {
+    "soc_code": "47-2082.00",
+    "soc_title": "Tapers"
+  },
+  {
+    "soc_code": "47-2111.00",
+    "soc_title": "Electricians"
+  },
+  {
+    "soc_code": "47-2121.00",
+    "soc_title": "Glaziers"
+  },
+  {
+    "soc_code": "47-2131.00",
+    "soc_title": "Insulation Workers, Floor, Ceiling, and Wall"
+  },
+  {
+    "soc_code": "47-2132.00",
+    "soc_title": "Insulation Workers, Mechanical"
+  },
+  {
+    "soc_code": "47-2141.00",
+    "soc_title": "Painters, Construction and Maintenance"
+  },
+  {
+    "soc_code": "47-2142.00",
+    "soc_title": "Paperhangers"
+  },
+  {
+    "soc_code": "47-2151.00",
+    "soc_title": "Pipelayers"
+  },
+  {
+    "soc_code": "47-2152.00",
+    "soc_title": "Plumbers, Pipefitters, and Steamfitters"
+  },
+  {
+    "soc_code": "47-2152.01",
+    "soc_title": "Pipe Fitters and Steamfitters"
+  },
+  {
+    "soc_code": "47-2152.02",
+    "soc_title": "Plumbers"
+  },
+  {
+    "soc_code": "47-2161.00",
+    "soc_title": "Plasterers and Stucco Masons"
+  },
+  {
+    "soc_code": "47-2171.00",
+    "soc_title": "Reinforcing Iron and Rebar Workers"
+  },
+  {
+    "soc_code": "47-2181.00",
+    "soc_title": "Roofers"
   },
   {
     "soc_code": "47-2211.00",
-    "soc_title": "47-2211.00"
+    "soc_title": "Sheet Metal Workers"
+  },
+  {
+    "soc_code": "47-2221.00",
+    "soc_title": "Structural Iron and Steel Workers"
   },
   {
     "soc_code": "47-2231.00",
-    "soc_title": "47-2231.00"
+    "soc_title": "Solar Photovoltaic Installers"
+  },
+  {
+    "soc_code": "47-3011.00",
+    "soc_title": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters"
+  },
+  {
+    "soc_code": "47-3012.00",
+    "soc_title": "Helpers--Carpenters"
+  },
+  {
+    "soc_code": "47-3013.00",
+    "soc_title": "Helpers--Electricians"
+  },
+  {
+    "soc_code": "47-3014.00",
+    "soc_title": "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons"
+  },
+  {
+    "soc_code": "47-3015.00",
+    "soc_title": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters"
+  },
+  {
+    "soc_code": "47-3016.00",
+    "soc_title": "Helpers--Roofers"
+  },
+  {
+    "soc_code": "47-3019.00",
+    "soc_title": "Helpers, Construction Trades, All Other"
+  },
+  {
+    "soc_code": "47-4011.00",
+    "soc_title": "Construction and Building Inspectors"
+  },
+  {
+    "soc_code": "47-4021.00",
+    "soc_title": "Elevator Installers and Repairers"
+  },
+  {
+    "soc_code": "47-4031.00",
+    "soc_title": "Fence Erectors"
+  },
+  {
+    "soc_code": "47-4041.00",
+    "soc_title": "Hazardous Materials Removal Workers"
+  },
+  {
+    "soc_code": "47-4051.00",
+    "soc_title": "Highway Maintenance Workers"
+  },
+  {
+    "soc_code": "47-4061.00",
+    "soc_title": "Rail-Track Laying and Maintenance Equipment Operators"
+  },
+  {
+    "soc_code": "47-4071.00",
+    "soc_title": "Septic Tank Servicers and Sewer Pipe Cleaners"
+  },
+  {
+    "soc_code": "47-4091.00",
+    "soc_title": "Segmental Pavers"
+  },
+  {
+    "soc_code": "47-4099.00",
+    "soc_title": "Construction and Related Workers, All Other"
+  },
+  {
+    "soc_code": "47-4099.02",
+    "soc_title": "Solar Thermal Installers and Technicians"
   },
   {
     "soc_code": "47-4099.03",
-    "soc_title": "47-4099.03"
+    "soc_title": "Weatherization Installers and Technicians"
+  },
+  {
+    "soc_code": "47-5011.00",
+    "soc_title": "Derrick Operators, Oil and Gas"
+  },
+  {
+    "soc_code": "47-5012.00",
+    "soc_title": "Rotary Drill Operators, Oil and Gas"
+  },
+  {
+    "soc_code": "47-5013.00",
+    "soc_title": "Service Unit Operators, Oil, Gas, and Mining"
+  },
+  {
+    "soc_code": "47-5021.00",
+    "soc_title": "Earth Drillers, Except Oil and Gas"
+  },
+  {
+    "soc_code": "47-5031.00",
+    "soc_title": "Explosives Workers, Ordnance Handling Experts, and Blasters"
+  },
+  {
+    "soc_code": "47-5041.00",
+    "soc_title": "Continuous Mining Machine Operators"
+  },
+  {
+    "soc_code": "47-5042.00",
+    "soc_title": "Mine Cutting and Channeling Machine Operators"
+  },
+  {
+    "soc_code": "47-5049.00",
+    "soc_title": "Mining Machine Operators, All Other"
+  },
+  {
+    "soc_code": "47-5051.00",
+    "soc_title": "Rock Splitters, Quarry"
+  },
+  {
+    "soc_code": "47-5061.00",
+    "soc_title": "Roof Bolters, Mining"
+  },
+  {
+    "soc_code": "47-5071.00",
+    "soc_title": "Roustabouts, Oil and Gas"
+  },
+  {
+    "soc_code": "47-5081.00",
+    "soc_title": "Helpers--Extraction Workers"
   },
   {
     "soc_code": "47-5099.00",
-    "soc_title": "47-5099.00"
+    "soc_title": "Extraction Workers, All Other"
   },
   {
     "soc_code": "49-1011.00",
-    "soc_title": "49-1011.00"
+    "soc_title": "First-Line Supervisors of Mechanics, Installers, and Repairers"
+  },
+  {
+    "soc_code": "49-2011.00",
+    "soc_title": "Computer, Automated Teller, and Office Machine Repairers"
+  },
+  {
+    "soc_code": "49-2021.00",
+    "soc_title": "Radio, Cellular, and Tower Equipment Installers and Repairers"
+  },
+  {
+    "soc_code": "49-2021.01",
+    "soc_title": "Radio Mechanics"
+  },
+  {
+    "soc_code": "49-2022.00",
+    "soc_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers"
   },
   {
     "soc_code": "49-2091.00",
-    "soc_title": "49-2091.00"
+    "soc_title": "Avionics Technicians"
+  },
+  {
+    "soc_code": "49-2092.00",
+    "soc_title": "Electric Motor, Power Tool, and Related Repairers"
+  },
+  {
+    "soc_code": "49-2093.00",
+    "soc_title": "Electrical and Electronics Installers and Repairers, Transportation Equipment"
+  },
+  {
+    "soc_code": "49-2094.00",
+    "soc_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+  },
+  {
+    "soc_code": "49-2095.00",
+    "soc_title": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay"
+  },
+  {
+    "soc_code": "49-2096.00",
+    "soc_title": "Electronic Equipment Installers and Repairers, Motor Vehicles"
+  },
+  {
+    "soc_code": "49-2097.00",
+    "soc_title": "Electronic Home Entertainment Equipment Installers and Repairers"
+  },
+  {
+    "soc_code": "49-2098.00",
+    "soc_title": "Security and Fire Alarm Systems Installers"
   },
   {
     "soc_code": "49-3011.00",
-    "soc_title": "49-3011.00"
+    "soc_title": "Aircraft Mechanics and Service Technicians"
   },
   {
     "soc_code": "49-3021.00",
-    "soc_title": "49-3021.00"
+    "soc_title": "Automotive Body and Related Repairers"
+  },
+  {
+    "soc_code": "49-3022.00",
+    "soc_title": "Automotive Glass Installers and Repairers"
+  },
+  {
+    "soc_code": "49-3023.00",
+    "soc_title": "Automotive Service Technicians and Mechanics"
   },
   {
     "soc_code": "49-3023.01",
-    "soc_title": "49-3023.01"
+    "soc_title": "Automotive Master Mechanics"
   },
   {
     "soc_code": "49-3023.02",
-    "soc_title": "49-3023.02"
+    "soc_title": "Automotive Specialty Technicians"
   },
   {
     "soc_code": "49-3031.00",
-    "soc_title": "49-3031.00"
+    "soc_title": "Bus and Truck Mechanics and Diesel Engine Specialists"
+  },
+  {
+    "soc_code": "49-3041.00",
+    "soc_title": "Farm Equipment Mechanics and Service Technicians"
   },
   {
     "soc_code": "49-3042.00",
-    "soc_title": "49-3042.00"
+    "soc_title": "Mobile Heavy Equipment Mechanics, Except Engines"
+  },
+  {
+    "soc_code": "49-3043.00",
+    "soc_title": "Rail Car Repairers"
+  },
+  {
+    "soc_code": "49-3051.00",
+    "soc_title": "Motorboat Mechanics and Service Technicians"
+  },
+  {
+    "soc_code": "49-3052.00",
+    "soc_title": "Motorcycle Mechanics"
+  },
+  {
+    "soc_code": "49-3053.00",
+    "soc_title": "Outdoor Power Equipment and Other Small Engine Mechanics"
+  },
+  {
+    "soc_code": "49-3091.00",
+    "soc_title": "Bicycle Repairers"
+  },
+  {
+    "soc_code": "49-3092.00",
+    "soc_title": "Recreational Vehicle Service Technicians"
+  },
+  {
+    "soc_code": "49-3093.00",
+    "soc_title": "Tire Repairers and Changers"
+  },
+  {
+    "soc_code": "49-9011.00",
+    "soc_title": "Mechanical Door Repairers"
   },
   {
     "soc_code": "49-9012.00",
-    "soc_title": "49-9012.00"
+    "soc_title": "Control and Valve Installers and Repairers, Except Mechanical Door"
+  },
+  {
+    "soc_code": "49-9021.00",
+    "soc_title": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
   },
   {
     "soc_code": "49-9021.01",
-    "soc_title": "49-9021.01"
+    "soc_title": "Heating and Air Conditioning Mechanics and Installers"
+  },
+  {
+    "soc_code": "49-9021.02",
+    "soc_title": "Refrigeration Mechanics and Installers"
+  },
+  {
+    "soc_code": "49-9031.00",
+    "soc_title": "Home Appliance Repairers"
+  },
+  {
+    "soc_code": "49-9041.00",
+    "soc_title": "Industrial Machinery Mechanics"
+  },
+  {
+    "soc_code": "49-9043.00",
+    "soc_title": "Maintenance Workers, Machinery"
+  },
+  {
+    "soc_code": "49-9044.00",
+    "soc_title": "Millwrights"
+  },
+  {
+    "soc_code": "49-9045.00",
+    "soc_title": "Refractory Materials Repairers, Except Brickmasons"
+  },
+  {
+    "soc_code": "49-9051.00",
+    "soc_title": "Electrical Power-Line Installers and Repairers"
   },
   {
     "soc_code": "49-9052.00",
-    "soc_title": "49-9052.00"
+    "soc_title": "Telecommunications Line Installers and Repairers"
+  },
+  {
+    "soc_code": "49-9061.00",
+    "soc_title": "Camera and Photographic Equipment Repairers"
+  },
+  {
+    "soc_code": "49-9062.00",
+    "soc_title": "Medical Equipment Repairers"
+  },
+  {
+    "soc_code": "49-9063.00",
+    "soc_title": "Musical Instrument Repairers and Tuners"
+  },
+  {
+    "soc_code": "49-9064.00",
+    "soc_title": "Watch Repairers"
+  },
+  {
+    "soc_code": "49-9069.00",
+    "soc_title": "Precision Instrument and Equipment Repairers, All Other"
   },
   {
     "soc_code": "49-9071.00",
-    "soc_title": "49-9071.00"
+    "soc_title": "Maintenance and Repair Workers, General"
+  },
+  {
+    "soc_code": "49-9081.00",
+    "soc_title": "Wind Turbine Service Technicians"
+  },
+  {
+    "soc_code": "49-9091.00",
+    "soc_title": "Coin, Vending, and Amusement Machine Servicers and Repairers"
+  },
+  {
+    "soc_code": "49-9092.00",
+    "soc_title": "Commercial Divers"
+  },
+  {
+    "soc_code": "49-9093.00",
+    "soc_title": "Fabric Menders, Except Garment"
+  },
+  {
+    "soc_code": "49-9094.00",
+    "soc_title": "Locksmiths and Safe Repairers"
+  },
+  {
+    "soc_code": "49-9095.00",
+    "soc_title": "Manufactured Building and Mobile Home Installers"
+  },
+  {
+    "soc_code": "49-9096.00",
+    "soc_title": "Riggers"
+  },
+  {
+    "soc_code": "49-9097.00",
+    "soc_title": "Signal and Track Switch Repairers"
+  },
+  {
+    "soc_code": "49-9098.00",
+    "soc_title": "Helpers--Installation, Maintenance, and Repair Workers"
+  },
+  {
+    "soc_code": "49-9099.00",
+    "soc_title": "Installation, Maintenance, and Repair Workers, All Other"
+  },
+  {
+    "soc_code": "49-9099.01",
+    "soc_title": "Geothermal Technicians"
   },
   {
     "soc_code": "51-1011.00",
-    "soc_title": "51-1011.00"
+    "soc_title": "First-Line Supervisors of Production and Operating Workers"
+  },
+  {
+    "soc_code": "51-2011.00",
+    "soc_title": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers"
+  },
+  {
+    "soc_code": "51-2021.00",
+    "soc_title": "Coil Winders, Tapers, and Finishers"
+  },
+  {
+    "soc_code": "51-2022.00",
+    "soc_title": "Electrical and Electronic Equipment Assemblers"
+  },
+  {
+    "soc_code": "51-2023.00",
+    "soc_title": "Electromechanical Equipment Assemblers"
+  },
+  {
+    "soc_code": "51-2031.00",
+    "soc_title": "Engine and Other Machine Assemblers"
+  },
+  {
+    "soc_code": "51-2041.00",
+    "soc_title": "Structural Metal Fabricators and Fitters"
+  },
+  {
+    "soc_code": "51-2091.00",
+    "soc_title": "Fiberglass Laminators and Fabricators"
   },
   {
     "soc_code": "51-2092.00",
-    "soc_title": "51-2092.00"
+    "soc_title": "Team Assemblers"
   },
   {
     "soc_code": "51-2093.00",
-    "soc_title": "51-2093.00"
+    "soc_title": "Timing Device Assemblers and Adjusters"
   },
   {
     "soc_code": "51-2099.00",
-    "soc_title": "51-2099.00"
+    "soc_title": "Assemblers and Fabricators, All Other"
   },
   {
     "soc_code": "51-3011.00",
-    "soc_title": "51-3011.00"
+    "soc_title": "Bakers"
   },
   {
     "soc_code": "51-3021.00",
-    "soc_title": "51-3021.00"
+    "soc_title": "Butchers and Meat Cutters"
+  },
+  {
+    "soc_code": "51-3022.00",
+    "soc_title": "Meat, Poultry, and Fish Cutters and Trimmers"
+  },
+  {
+    "soc_code": "51-3023.00",
+    "soc_title": "Slaughterers and Meat Packers"
+  },
+  {
+    "soc_code": "51-3091.00",
+    "soc_title": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders"
+  },
+  {
+    "soc_code": "51-3092.00",
+    "soc_title": "Food Batchmakers"
+  },
+  {
+    "soc_code": "51-3093.00",
+    "soc_title": "Food Cooking Machine Operators and Tenders"
+  },
+  {
+    "soc_code": "51-3099.00",
+    "soc_title": "Food Processing Workers, All Other"
   },
   {
     "soc_code": "51-4011.00",
-    "soc_title": "51-4011.00"
+    "soc_title": "Computer-Controlled Machine Tool Operators, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4012.00",
+    "soc_title": "Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4021.00",
+    "soc_title": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4022.00",
+    "soc_title": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4023.00",
+    "soc_title": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4031.00",
+    "soc_title": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4032.00",
+    "soc_title": "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
   },
   {
     "soc_code": "51-4033.00",
-    "soc_title": "51-4033.00"
+    "soc_title": "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4034.00",
+    "soc_title": "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4035.00",
+    "soc_title": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4041.00",
+    "soc_title": "Machinists"
+  },
+  {
+    "soc_code": "51-4051.00",
+    "soc_title": "Metal-Refining Furnace Operators and Tenders"
+  },
+  {
+    "soc_code": "51-4052.00",
+    "soc_title": "Pourers and Casters, Metal"
+  },
+  {
+    "soc_code": "51-4061.00",
+    "soc_title": "Model Makers, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4062.00",
+    "soc_title": "Patternmakers, Metal and Plastic"
   },
   {
     "soc_code": "51-4071.00",
-    "soc_title": "51-4071.00"
+    "soc_title": "Foundry Mold and Coremakers"
+  },
+  {
+    "soc_code": "51-4072.00",
+    "soc_title": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4081.00",
+    "soc_title": "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4111.00",
+    "soc_title": "Tool and Die Makers"
+  },
+  {
+    "soc_code": "51-4121.00",
+    "soc_title": "Welders, Cutters, Solderers, and Brazers"
+  },
+  {
+    "soc_code": "51-4121.06",
+    "soc_title": "Welders, Cutters, and Welder Fitters"
+  },
+  {
+    "soc_code": "51-4121.07",
+    "soc_title": "Solderers and Brazers"
+  },
+  {
+    "soc_code": "51-4122.00",
+    "soc_title": "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-4191.00",
+    "soc_title": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4192.00",
+    "soc_title": "Layout Workers, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4193.00",
+    "soc_title": "Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic"
+  },
+  {
+    "soc_code": "51-4194.00",
+    "soc_title": "Tool Grinders, Filers, and Sharpeners"
   },
   {
     "soc_code": "51-4199.00",
-    "soc_title": "51-4199.00"
+    "soc_title": "Metal Workers and Plastic Workers, All Other"
+  },
+  {
+    "soc_code": "51-5111.00",
+    "soc_title": "Prepress Technicians and Workers"
+  },
+  {
+    "soc_code": "51-5112.00",
+    "soc_title": "Printing Press Operators"
+  },
+  {
+    "soc_code": "51-5113.00",
+    "soc_title": "Print Binding and Finishing Workers"
+  },
+  {
+    "soc_code": "51-6011.00",
+    "soc_title": "Laundry and Dry-Cleaning Workers"
+  },
+  {
+    "soc_code": "51-6021.00",
+    "soc_title": "Pressers, Textile, Garment, and Related Materials"
+  },
+  {
+    "soc_code": "51-6031.00",
+    "soc_title": "Sewing Machine Operators"
+  },
+  {
+    "soc_code": "51-6041.00",
+    "soc_title": "Shoe and Leather Workers and Repairers"
+  },
+  {
+    "soc_code": "51-6042.00",
+    "soc_title": "Shoe Machine Operators and Tenders"
+  },
+  {
+    "soc_code": "51-6051.00",
+    "soc_title": "Sewers, Hand"
+  },
+  {
+    "soc_code": "51-6052.00",
+    "soc_title": "Tailors, Dressmakers, and Custom Sewers"
+  },
+  {
+    "soc_code": "51-6061.00",
+    "soc_title": "Textile Bleaching and Dyeing Machine Operators and Tenders"
+  },
+  {
+    "soc_code": "51-6062.00",
+    "soc_title": "Textile Cutting Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-6063.00",
+    "soc_title": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-6064.00",
+    "soc_title": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-6091.00",
+    "soc_title": "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers"
+  },
+  {
+    "soc_code": "51-6092.00",
+    "soc_title": "Fabric and Apparel Patternmakers"
+  },
+  {
+    "soc_code": "51-6093.00",
+    "soc_title": "Upholsterers"
+  },
+  {
+    "soc_code": "51-6099.00",
+    "soc_title": "Textile, Apparel, and Furnishings Workers, All Other"
+  },
+  {
+    "soc_code": "51-7011.00",
+    "soc_title": "Cabinetmakers and Bench Carpenters"
+  },
+  {
+    "soc_code": "51-7021.00",
+    "soc_title": "Furniture Finishers"
+  },
+  {
+    "soc_code": "51-7031.00",
+    "soc_title": "Model Makers, Wood"
+  },
+  {
+    "soc_code": "51-7032.00",
+    "soc_title": "Patternmakers, Wood"
+  },
+  {
+    "soc_code": "51-7041.00",
+    "soc_title": "Sawing Machine Setters, Operators, and Tenders, Wood"
+  },
+  {
+    "soc_code": "51-7042.00",
+    "soc_title": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing"
   },
   {
     "soc_code": "51-7099.00",
-    "soc_title": "51-7099.00"
+    "soc_title": "Woodworkers, All Other"
+  },
+  {
+    "soc_code": "51-8011.00",
+    "soc_title": "Nuclear Power Reactor Operators"
+  },
+  {
+    "soc_code": "51-8012.00",
+    "soc_title": "Power Distributors and Dispatchers"
+  },
+  {
+    "soc_code": "51-8013.00",
+    "soc_title": "Power Plant Operators"
+  },
+  {
+    "soc_code": "51-8021.00",
+    "soc_title": "Stationary Engineers and Boiler Operators"
+  },
+  {
+    "soc_code": "51-8031.00",
+    "soc_title": "Water and Wastewater Treatment Plant and System Operators"
+  },
+  {
+    "soc_code": "51-8091.00",
+    "soc_title": "Chemical Plant and System Operators"
+  },
+  {
+    "soc_code": "51-8092.00",
+    "soc_title": "Gas Plant Operators"
+  },
+  {
+    "soc_code": "51-8093.00",
+    "soc_title": "Petroleum Pump System Operators, Refinery Operators, and Gaugers"
+  },
+  {
+    "soc_code": "51-8099.00",
+    "soc_title": "Plant and System Operators, All Other"
+  },
+  {
+    "soc_code": "51-8099.01",
+    "soc_title": "Biofuels Processing Technicians"
+  },
+  {
+    "soc_code": "51-8099.02",
+    "soc_title": "Methane/Landfill Gas Generation System Technicians"
+  },
+  {
+    "soc_code": "51-8099.03",
+    "soc_title": "Biomass Plant Technicians"
+  },
+  {
+    "soc_code": "51-8099.04",
+    "soc_title": "Hydroelectric Plant Technicians"
+  },
+  {
+    "soc_code": "51-9011.00",
+    "soc_title": "Chemical Equipment Operators and Tenders"
+  },
+  {
+    "soc_code": "51-9012.00",
+    "soc_title": "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-9021.00",
+    "soc_title": "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-9022.00",
+    "soc_title": "Grinding and Polishing Workers, Hand"
+  },
+  {
+    "soc_code": "51-9023.00",
+    "soc_title": "Mixing and Blending Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-9031.00",
+    "soc_title": "Cutters and Trimmers, Hand"
+  },
+  {
+    "soc_code": "51-9032.00",
+    "soc_title": "Cutting and Slicing Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-9041.00",
+    "soc_title": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-9051.00",
+    "soc_title": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders"
   },
   {
     "soc_code": "51-9061.00",
-    "soc_title": "51-9061.00"
+    "soc_title": "Inspectors, Testers, Sorters, Samplers, and Weighers"
+  },
+  {
+    "soc_code": "51-9071.00",
+    "soc_title": "Jewelers and Precious Stone and Metal Workers"
+  },
+  {
+    "soc_code": "51-9071.01",
+    "soc_title": "Jewelers"
+  },
+  {
+    "soc_code": "51-9071.06",
+    "soc_title": "Gem and Diamond Workers"
+  },
+  {
+    "soc_code": "51-9071.07",
+    "soc_title": "Precious Metal Workers"
   },
   {
     "soc_code": "51-9081.00",
-    "soc_title": "51-9081.00"
+    "soc_title": "Dental Laboratory Technicians"
+  },
+  {
+    "soc_code": "51-9082.00",
+    "soc_title": "Medical Appliance Technicians"
+  },
+  {
+    "soc_code": "51-9083.00",
+    "soc_title": "Ophthalmic Laboratory Technicians"
   },
   {
     "soc_code": "51-9111.00",
-    "soc_title": "51-9111.00"
+    "soc_title": "Packaging and Filling Machine Operators and Tenders"
   },
   {
     "soc_code": "51-9121.00",
-    "soc_title": "51-9121.00"
+    "soc_title": "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-9122.00",
+    "soc_title": "Painters, Transportation Equipment"
+  },
+  {
+    "soc_code": "51-9123.00",
+    "soc_title": "Painting, Coating, and Decorating Workers"
+  },
+  {
+    "soc_code": "51-9141.00",
+    "soc_title": "Semiconductor Processors"
   },
   {
     "soc_code": "51-9151.00",
-    "soc_title": "51-9151.00"
+    "soc_title": "Photographic Process Workers and Processing Machine Operators"
   },
   {
     "soc_code": "51-9191.00",
-    "soc_title": "51-9191.00"
+    "soc_title": "Adhesive Bonding Machine Operators and Tenders"
+  },
+  {
+    "soc_code": "51-9192.00",
+    "soc_title": "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders"
+  },
+  {
+    "soc_code": "51-9193.00",
+    "soc_title": "Cooling and Freezing Equipment Operators and Tenders"
+  },
+  {
+    "soc_code": "51-9194.00",
+    "soc_title": "Etchers and Engravers"
+  },
+  {
+    "soc_code": "51-9195.00",
+    "soc_title": "Molders, Shapers, and Casters, Except Metal and Plastic"
+  },
+  {
+    "soc_code": "51-9195.03",
+    "soc_title": "Stone Cutters and Carvers, Manufacturing"
+  },
+  {
+    "soc_code": "51-9195.04",
+    "soc_title": "Glass Blowers, Molders, Benders, and Finishers"
+  },
+  {
+    "soc_code": "51-9195.05",
+    "soc_title": "Potters, Manufacturing"
+  },
+  {
+    "soc_code": "51-9195.07",
+    "soc_title": "Molding and Casting Workers"
+  },
+  {
+    "soc_code": "51-9196.00",
+    "soc_title": "Paper Goods Machine Setters, Operators, and Tenders"
+  },
+  {
+    "soc_code": "51-9197.00",
+    "soc_title": "Tire Builders"
+  },
+  {
+    "soc_code": "51-9198.00",
+    "soc_title": "Helpers--Production Workers"
+  },
+  {
+    "soc_code": "51-9199.00",
+    "soc_title": "Production Workers, All Other"
   },
   {
     "soc_code": "51-9199.01",
-    "soc_title": "51-9199.01"
+    "soc_title": "Recycling and Reclamation Workers"
+  },
+  {
+    "soc_code": "53-1011.00",
+    "soc_title": "Aircraft Cargo Handling Supervisors"
+  },
+  {
+    "soc_code": "53-1021.00",
+    "soc_title": "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand"
+  },
+  {
+    "soc_code": "53-1021.01",
+    "soc_title": "Recycling Coordinators"
+  },
+  {
+    "soc_code": "53-1031.00",
+    "soc_title": "First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators"
   },
   {
     "soc_code": "53-2011.00",
-    "soc_title": "53-2011.00"
+    "soc_title": "Airline Pilots, Copilots, and Flight Engineers"
   },
   {
     "soc_code": "53-2012.00",
-    "soc_title": "53-2012.00"
+    "soc_title": "Commercial Pilots"
+  },
+  {
+    "soc_code": "53-2021.00",
+    "soc_title": "Air Traffic Controllers"
+  },
+  {
+    "soc_code": "53-2022.00",
+    "soc_title": "Airfield Operations Specialists"
+  },
+  {
+    "soc_code": "53-2031.00",
+    "soc_title": "Flight Attendants"
+  },
+  {
+    "soc_code": "53-3011.00",
+    "soc_title": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
+  },
+  {
+    "soc_code": "53-3021.00",
+    "soc_title": "Bus Drivers, Transit and Intercity"
+  },
+  {
+    "soc_code": "53-3022.00",
+    "soc_title": "Bus Drivers, School or Special Client"
+  },
+  {
+    "soc_code": "53-3031.00",
+    "soc_title": "Driver/Sales Workers"
   },
   {
     "soc_code": "53-3032.00",
-    "soc_title": "53-3032.00"
+    "soc_title": "Heavy and Tractor-Trailer Truck Drivers"
+  },
+  {
+    "soc_code": "53-3033.00",
+    "soc_title": "Light Truck or Delivery Services Drivers"
+  },
+  {
+    "soc_code": "53-3041.00",
+    "soc_title": "Taxi Drivers and Chauffeurs"
+  },
+  {
+    "soc_code": "53-3099.00",
+    "soc_title": "Motor Vehicle Operators, All Other"
   },
   {
     "soc_code": "53-4011.00",
-    "soc_title": "53-4011.00"
+    "soc_title": "Locomotive Engineers"
+  },
+  {
+    "soc_code": "53-4012.00",
+    "soc_title": "Locomotive Firers"
+  },
+  {
+    "soc_code": "53-4013.00",
+    "soc_title": "Rail Yard Engineers, Dinkey Operators, and Hostlers"
+  },
+  {
+    "soc_code": "53-4021.00",
+    "soc_title": "Railroad Brake, Signal, and Switch Operators"
   },
   {
     "soc_code": "53-4031.00",
-    "soc_title": "53-4031.00"
+    "soc_title": "Railroad Conductors and Yardmasters"
+  },
+  {
+    "soc_code": "53-4041.00",
+    "soc_title": "Subway and Streetcar Operators"
+  },
+  {
+    "soc_code": "53-4099.00",
+    "soc_title": "Rail Transportation Workers, All Other"
   },
   {
     "soc_code": "53-5011.00",
-    "soc_title": "53-5011.00"
+    "soc_title": "Sailors and Marine Oilers"
+  },
+  {
+    "soc_code": "53-5021.00",
+    "soc_title": "Captains, Mates, and Pilots of Water Vessels"
   },
   {
     "soc_code": "53-5021.01",
-    "soc_title": "53-5021.01"
+    "soc_title": "Ship and Boat Captains"
   },
   {
     "soc_code": "53-5021.02",
-    "soc_title": "53-5021.02"
+    "soc_title": "Mates- Ship, Boat, and Barge"
+  },
+  {
+    "soc_code": "53-5021.03",
+    "soc_title": "Pilots, Ship"
+  },
+  {
+    "soc_code": "53-5022.00",
+    "soc_title": "Motorboat Operators"
+  },
+  {
+    "soc_code": "53-5031.00",
+    "soc_title": "Ship Engineers"
+  },
+  {
+    "soc_code": "53-6011.00",
+    "soc_title": "Bridge and Lock Tenders"
+  },
+  {
+    "soc_code": "53-6021.00",
+    "soc_title": "Parking Lot Attendants"
+  },
+  {
+    "soc_code": "53-6031.00",
+    "soc_title": "Automotive and Watercraft Service Attendants"
+  },
+  {
+    "soc_code": "53-6041.00",
+    "soc_title": "Traffic Technicians"
+  },
+  {
+    "soc_code": "53-6051.00",
+    "soc_title": "Transportation Inspectors"
   },
   {
     "soc_code": "53-6051.01",
-    "soc_title": "53-6051.01"
+    "soc_title": "Aviation Inspectors"
+  },
+  {
+    "soc_code": "53-6051.07",
+    "soc_title": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation"
+  },
+  {
+    "soc_code": "53-6051.08",
+    "soc_title": "Freight and Cargo Inspectors"
   },
   {
     "soc_code": "53-6061.00",
-    "soc_title": "53-6061.00"
+    "soc_title": "Transportation Attendants, Except Flight Attendants"
+  },
+  {
+    "soc_code": "53-6099.00",
+    "soc_title": "Transportation Workers, All Other"
+  },
+  {
+    "soc_code": "53-7011.00",
+    "soc_title": "Conveyor Operators and Tenders"
+  },
+  {
+    "soc_code": "53-7021.00",
+    "soc_title": "Crane and Tower Operators"
+  },
+  {
+    "soc_code": "53-7031.00",
+    "soc_title": "Dredge Operators"
+  },
+  {
+    "soc_code": "53-7032.00",
+    "soc_title": "Excavating and Loading Machine and Dragline Operators"
+  },
+  {
+    "soc_code": "53-7033.00",
+    "soc_title": "Loading Machine Operators, Underground Mining"
+  },
+  {
+    "soc_code": "53-7041.00",
+    "soc_title": "Hoist and Winch Operators"
+  },
+  {
+    "soc_code": "53-7051.00",
+    "soc_title": "Industrial Truck and Tractor Operators"
+  },
+  {
+    "soc_code": "53-7061.00",
+    "soc_title": "Cleaners of Vehicles and Equipment"
+  },
+  {
+    "soc_code": "53-7062.00",
+    "soc_title": "Laborers and Freight, Stock, and Material Movers, Hand"
+  },
+  {
+    "soc_code": "53-7063.00",
+    "soc_title": "Machine Feeders and Offbearers"
+  },
+  {
+    "soc_code": "53-7064.00",
+    "soc_title": "Packers and Packagers, Hand"
+  },
+  {
+    "soc_code": "53-7071.00",
+    "soc_title": "Gas Compressor and Gas Pumping Station Operators"
+  },
+  {
+    "soc_code": "53-7072.00",
+    "soc_title": "Pump Operators, Except Wellhead Pumpers"
+  },
+  {
+    "soc_code": "53-7073.00",
+    "soc_title": "Wellhead Pumpers"
+  },
+  {
+    "soc_code": "53-7081.00",
+    "soc_title": "Refuse and Recyclable Material Collectors"
+  },
+  {
+    "soc_code": "53-7111.00",
+    "soc_title": "Mine Shuttle Car Operators"
+  },
+  {
+    "soc_code": "53-7121.00",
+    "soc_title": "Tank Car, Truck, and Ship Loaders"
+  },
+  {
+    "soc_code": "53-7199.00",
+    "soc_title": "Material Moving Workers, All Other"
+  },
+  {
+    "soc_code": "55-1011.00",
+    "soc_title": "Air Crew Officers"
+  },
+  {
+    "soc_code": "55-1012.00",
+    "soc_title": "Aircraft Launch and Recovery Officers"
+  },
+  {
+    "soc_code": "55-1013.00",
+    "soc_title": "Armored Assault Vehicle Officers"
+  },
+  {
+    "soc_code": "55-1014.00",
+    "soc_title": "Artillery and Missile Officers"
   },
   {
     "soc_code": "55-1015.00",
-    "soc_title": "55-1015.00"
+    "soc_title": "Command and Control Center Officers"
+  },
+  {
+    "soc_code": "55-1016.00",
+    "soc_title": "Infantry Officers"
+  },
+  {
+    "soc_code": "55-1017.00",
+    "soc_title": "Special Forces Officers"
   },
   {
     "soc_code": "55-1019.00",
-    "soc_title": "55-1019.00"
+    "soc_title": "Military Officer Special and Tactical Operations Leaders, All Other"
+  },
+  {
+    "soc_code": "55-2011.00",
+    "soc_title": "First-Line Supervisors of Air Crew Members"
   },
   {
     "soc_code": "55-2012.00",
-    "soc_title": "55-2012.00"
+    "soc_title": "First-Line Supervisors of Weapons Specialists/Crew Members"
   },
   {
     "soc_code": "55-2013.00",
-    "soc_title": "55-2013.00"
+    "soc_title": "First-Line Supervisors of All Other Tactical Operations Specialists"
+  },
+  {
+    "soc_code": "55-3011.00",
+    "soc_title": "Air Crew Members"
+  },
+  {
+    "soc_code": "55-3012.00",
+    "soc_title": "Aircraft Launch and Recovery Specialists"
+  },
+  {
+    "soc_code": "55-3013.00",
+    "soc_title": "Armored Assault Vehicle Crew Members"
   },
   {
     "soc_code": "55-3014.00",
-    "soc_title": "55-3014.00"
+    "soc_title": "Artillery and Missile Crew Members"
+  },
+  {
+    "soc_code": "55-3015.00",
+    "soc_title": "Command and Control Center Specialists"
   },
   {
     "soc_code": "55-3016.00",
-    "soc_title": "55-3016.00"
+    "soc_title": "Infantry"
+  },
+  {
+    "soc_code": "55-3017.00",
+    "soc_title": "Radar and Sonar Technicians"
   },
   {
     "soc_code": "55-3018.00",
-    "soc_title": "55-3018.00"
+    "soc_title": "Special Forces"
   },
   {
     "soc_code": "55-3019.00",
-    "soc_title": "55-3019.00"
+    "soc_title": "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
   }
 ]
