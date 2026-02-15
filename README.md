@@ -12,13 +12,14 @@ This project builds a composite *occupational fit score* by combining multiple s
 
 The final score is:
 
-$$
+```math
 \text{match\_score\_final} =
 w_{\text{tfidf}} \cdot \text{tfidf}
 + w_{\text{edu}} \cdot \text{edu}
 + w_{\text{exp}} \cdot \text{exp}
 + w_{\text{train}} \cdot \text{train}
-$$
+```
+
 
 
 The weights are **learned from the data**, not chosen manually.
