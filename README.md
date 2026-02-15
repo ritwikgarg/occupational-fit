@@ -1,18 +1,27 @@
+
 # Occupational Fit
 
-**Construct a measure of the quality of matches between jobs and workers.**
+**Estimating how well a worker fits a job.**
 
-This project builds a composite occupational-fit score by combining:
-- **Task/skill similarity** (TF-IDF character n-gram cosine similarity between user profile text and O\*NET task descriptions)
-- **Education gap** (user education level vs. O\*NET required education level)
-- **Experience gap** (user career experience vs. O\*NET required experience)
-- **Training match** (user training proxy vs. O\*NET required training)
+This project builds a composite *occupational fit score* by combining multiple signals about a worker and an occupation:
+
+* **Task / skill similarity** — overlap between a worker’s profile text and O*NET task descriptions (TF-IDF character n-gram cosine similarity)
+* **Education gap** — worker education level vs. typical education required by the occupation
+* **Experience gap** — worker career experience vs. typical required experience
+* **Training match** — proxy for training level vs. occupation training requirements
 
 The final score is:
 
-$$\text{match\_score\_final} = w_{\text{tfidf}} \times \text{tfidf} + w_{\text{edu}} \times \text{edu} + w_{\text{exp}} \times \text{exp} + w_{\text{train}} \times \text{train}$$
+[
+\text{match_score_final} =
+w_{\text{tfidf}}\cdot\text{tfidf} +
+w_{\text{edu}}\cdot\text{edu} +
+w_{\text{exp}}\cdot\text{exp} +
+w_{\text{train}}\cdot\text{train}
+]
 
-Weights are **derived from data** using ANOVA eta-squared (η²): for each component, we compute the ratio of between-SOC variance to total variance, then normalize so all weights sum to 1. This ensures components that better discriminate between occupations receive higher weight. The derived weights are saved to `data/derived_weights.json`.
+The weights are **learned from the data**, not chosen manually.
+For each component we compute ANOVA eta-squared (η²), which measures how much variation in that feature is explained by occupation differences. Features that distinguish occupations better receive higher weight. The normalized weights are saved to `data/derived_weights.json`.
 
 ---
 
@@ -20,100 +29,141 @@ Weights are **derived from data** using ANOVA eta-squared (η²): for each compo
 
 ```
 ├── data/
-│   ├── final_job_match_dataset.csv     # Main output: scored positions
-│   ├── artifacts/                      # Intermediate pipeline outputs
-│   └── sample_data_extracted/          # O*NET + individual source data
+│   ├── final_job_match_dataset.csv
+│   ├── artifacts/
+│   └── sample_data_extracted/
 ├── notebooks/
-│   ├── preprocessing.ipynb             # Core pipeline (Steps 1–12)
-│   ├── validation.ipynb                # Sanity checks & calibration
-│   ├── predictive_model.ipynb          # External validation (AUC, feature importance)
-│   └── recommender.ipynb              # SOC recommendation engine
+│   ├── preprocessing.ipynb
+│   ├── validation.ipynb
+│   ├── predictive_model.ipynb
+│   └── recommender.ipynb
 ├── demo/
-│   ├── build_demo_artifacts.py         # Generate JSON files for the UI
-│   ├── app.py                          # Flask API (recommend, score, user lookup)
-│   └── index.html                      # Interactive demo dashboard
+│   ├── build_demo_artifacts.py
+│   ├── app.py
+│   └── index.html
 ├── requirements.txt
 └── README.md
 ```
 
+---
+
 ## Data Sources
 
-| Source | Contents |
-|--------|----------|
-| `individual_position.csv` | User employment history (title, dates, seniority) |
-| `individual_user_education.csv` | User education records (degree, field, school) |
-| `individual_user_skill.csv` | User skill lists |
-| O\*NET Task Ratings | Task descriptions and importance ratings per SOC |
-| O\*NET Education/Training/Experience | Required levels per SOC |
-| O\*NET Alternate Titles | Canonical + alternate job titles per SOC |
+| Source                              | Contents                               |
+| ----------------------------------- | -------------------------------------- |
+| `individual_position.csv`           | Work history (title, dates, seniority) |
+| `individual_user_education.csv`     | Education records                      |
+| `individual_user_skill.csv`         | Skills                                 |
+| O*NET Task Ratings                  | Tasks and importance by occupation     |
+| O*NET Education/Training/Experience | Typical requirements                   |
+| O*NET Alternate Titles              | Real-world job title variants          |
+
+---
 
 ## Pipeline Overview
 
 ### 1. Preprocessing (`preprocessing.ipynb`)
-1. **Extract** sample data from ZIP
-2. **Normalize** job titles (lowercase, strip punctuation/whitespace)
-3. **Map to SOC** via exact match → fuzzy match (RapidFuzz, threshold 90) → fallback
-4. **Build task documents** by concatenating O\*NET task descriptions weighted by importance
-5. **Compute TF-IDF similarity** between user profile and SOC task documents
-6. **Score education gap** against O\*NET required education level
-7. **Score experience/training gaps** similarly
-8. **Derive component weights** via ANOVA eta-squared (between-SOC variance ratio)
-9. **Composite score** using derived weights
-9. **Categorize** matches (well-matched, underqualified, overqualified, mismatch)
-10. **Compute mapping confidence** (0–1) based on match type and quality
-11. **Export** `final_job_match_dataset.csv` (51 columns)
+
+1. Extract and clean raw data
+2. Normalize job titles
+3. Map titles to SOC codes (exact → fuzzy → fallback)
+4. Build occupation task documents
+5. Compute TF-IDF similarity
+6. Compute education gap
+7. Compute experience and training gaps
+8. Learn component weights using ANOVA η²
+9. Combine into a composite fit score
+10. Label match categories
+11. Compute mapping confidence
+12. Export `final_job_match_dataset.csv`
+
+---
 
 ### 2. Validation (`validation.ipynb`)
-- Formula verification (recompute and compare)
-- Match-type ordering (exact > fuzzy > fallback)
-- Shuffle test (verify structure isn't random)
-- Score distribution / calibration analysis
-- Component correlation analysis
 
-### 3. Predictive Model (`predictive_model.ipynb`)
-- **Cross-validated Random Forest** predicting job switches (5-fold stratified)
-- **Feature importance** (Gini + permutation-based)
-- **Occupation switch AUC**: does low match predict changing SOC?
-- **Match improvement AUC**: does low match predict higher score at next job?
-- **Career trajectory**: match score trends across positions
+Checks that the score behaves sensibly:
+
+* recomputed score matches stored score
+* exact matches score higher than fuzzy matches
+* shuffle test destroys signal
+* distribution and calibration checks
+* component correlation analysis
+
+---
+
+### 3. Predictive Modeling (`predictive_model.ipynb`)
+
+Tests whether the score predicts behavior:
+
+* Random Forest (5-fold CV)
+* occupation switch prediction
+* match improvement prediction
+* feature importance analysis
+* career trajectory patterns
+
+---
 
 ### 4. Recommender (`recommender.ipynb`)
-- TF-IDF cosine similarity (user profile → SOC task documents)
-- Filters out user's current/past SOC codes
-- Explains recommendations via top overlapping TF-IDF features
-- Returns alternate job titles per recommended SOC
+
+Given a user profile:
+
+* compute similarity to all occupations
+* remove occupations already held
+* return suggested alternatives
+* explain using overlapping features
+
+---
 
 ## Setup
 
 ```bash
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the preprocessing pipeline
-# Open notebooks/preprocessing.ipynb and run all cells
-
-# Generate demo data
-python demo/build_demo_artifacts.py
-
-# Start the API server
-python demo/app.py
-# Then open demo/index.html in a browser
 ```
 
+Run preprocessing:
+
+```
+Open notebooks/preprocessing.ipynb and run all cells
+```
+
+Build demo data:
+
+```bash
+python demo/build_demo_artifacts.py
+```
+
+Start API:
+
+```bash
+python demo/app.py
+```
+
+Then open `demo/index.html` in a browser.
+
+---
+
 ### Requirements
-- Python 3.10+
-- pandas, numpy, scikit-learn, rapidfuzz, openpyxl, flask
+
+* Python 3.10+
+* pandas
+* numpy
+* scikit-learn
+* rapidfuzz
+* openpyxl
+* flask
+
+---
 
 ## API Endpoints
 
-| Method | Path | Description |
-|--------|------|-------------|
-| `GET` | `/api/health` | Health check |
-| `POST` | `/api/recommend` | Recommend SOCs for arbitrary profile text |
-| `POST` | `/api/score` | Score text against a specific SOC code |
-| `GET` | `/api/user/<id>` | Get user evidence and positions |
+| Method | Path             | Description                   |
+| ------ | ---------------- | ----------------------------- |
+| GET    | `/api/health`    | health check                  |
+| POST   | `/api/recommend` | recommend occupations         |
+| POST   | `/api/score`     | score text against occupation |
+| GET    | `/api/user/<id>` | user evidence                 |
 
-### Example: Score a profile against a SOC
+Example:
 
 ```bash
 curl -X POST http://127.0.0.1:8001/api/score \
@@ -121,38 +171,58 @@ curl -X POST http://127.0.0.1:8001/api/score \
   -d '{"text": "data analysis python sql machine learning", "soc_code": "15-2051.00"}'
 ```
 
-## Key Design Decisions
+---
 
-1. **Character n-grams (3,5)** instead of word-level TF-IDF — handles compound words, abbreviations, and cross-language terms better
-2. **Data-derived weights (ANOVA η²)** — component weights are determined by each feature's discriminative power across SOC codes, replacing earlier arbitrary fixed weights
-3. **Mapping confidence** — tracks how reliably a job title was mapped to a SOC code (exact=1.0, fuzzy=scaled, fallback=0.3)
-4. **Past-SOC filtering** in recommendations — ensures suggested occupations are actionable (not already held)
+## Design Choices
 
-## Known Limitations
+**Character n-gram TF-IDF**
+Handles abbreviations, spelling variation, and partial matches better than word tokens.
 
-- `job_switch` target is a proxy (1 for all non-last positions) — not a true voluntary-exit indicator
-- Education level mapping covers common degrees but may miss non-standard credentials
-- Training score relies on coarse O\*NET categories
-- SOC mapping quality depends on job title normalization; non-English titles receive a confidence penalty
-- Sample size limits statistical power for career-trajectory analyses
+**Data-derived weights**
+Avoids arbitrary weighting. Components that distinguish occupations more strongly get larger influence.
 
-## Output Dataset Schema
+**Mapping confidence score**
+Tracks reliability of job title → occupation mapping.
 
-The main output `final_job_match_dataset.csv` contains 51 columns including:
+**Recommendation filtering**
+Suggested occupations exclude roles the user has already held.
 
-| Column | Description |
-|--------|-------------|
-| `user_id` | User identifier |
-| `position_id` | Position identifier |
-| `jobtitle_raw` / `jobtitle_norm` | Original and normalized job title |
-| `soc_code_final` | Mapped O\*NET SOC code |
-| `match_type` | How the SOC was matched (exact/fuzzy/fallback) |
-| `match_score_final` | Composite fit score (0–1) |
-| `match_score_tfidf_v2` | Task/skill similarity component |
-| `edu_match_score` | Education match component |
-| `exp_match_score` | Experience match component |
-| `train_match_score` | Training match component |
-| `match_category` | Label (well-matched/underqualified/overqualified/mismatch) |
-| `mapping_confidence` | Confidence in SOC code mapping (0–1) |
-| `user_doc` | User profile text used for TF-IDF |
-| `soc_doc` | SOC task description text |
+---
+
+## UI Screenshots
+
+![Dashboard Screenshot](images/image1.png)
+![Dashboard Screenshot](images/image2.png)
+![Dashboard Screenshot](images/image3.png)
+
+## Limitations
+
+* Job switch is a proxy outcome, not true voluntary exit
+* Education mapping misses unusual credentials
+* Training categories are coarse
+* Non-English titles are harder to map
+* Dataset size limits long-term career analysis
+
+---
+
+## Output Dataset
+
+`final_job_match_dataset.csv` contains:
+
+| Column                 | Description          |
+| ---------------------- | -------------------- |
+| `user_id`              | user identifier      |
+| `position_id`          | position identifier  |
+| `jobtitle_raw`         | original title       |
+| `soc_code_final`       | mapped SOC           |
+| `match_type`           | mapping type         |
+| `match_score_final`    | final score          |
+| `match_score_tfidf_v2` | similarity           |
+| `edu_match_score`      | education            |
+| `exp_match_score`      | experience           |
+| `train_match_score`    | training             |
+| `match_category`       | interpretation label |
+| `mapping_confidence`   | SOC confidence       |
+| `user_doc`             | profile text         |
+| `soc_doc`              | occupation text      |
+
